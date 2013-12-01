@@ -1,5 +1,5 @@
-/*
-Theme Name: eros
+/*!
+Theme Name: wp-tuts
 Theme URI: http://underscores.me/
 Author: Underscores.me
 Author URI: http://underscores.me/
@@ -7,25 +7,11 @@ Description: Description
 Version: 1.0
 License: GNU General Public License
 License URI: license.txt
-Text Domain: eros
-Domain Path: /languages/
 Tags:
-
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned with others.
-
- eros is based on Underscores http://underscores.me/, (C) 2012-2013 Automattic, Inc.
-
-Resetting and rebuilding styles have been helped along thanks to the fine work of
-Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
-along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
-and Blueprint http://www.blueprintcss.org/
 */
-
-
 /* =Reset
 -------------------------------------------------------------- */
-
+/* line 11, sass/partials/_reset.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -34,25 +20,35 @@ small, strike, strong, sub, sup, tt, var,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td {
-	border: 0;
-	font-family: inherit;
-	font-size: 100%;
-	font-style: inherit;
-	font-weight: inherit;
-	margin: 0;
-	outline: 0;
-	padding: 0;
-	vertical-align: baseline;
+  border: 0;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
 }
+
+/* line 22, sass/partials/_reset.scss */
 html {
-	font-size: 62.5%; /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
-	overflow-y: scroll; /* Keeps page centered in all browsers regardless of content height */
-	-webkit-text-size-adjust: 100%; /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
-	-ms-text-size-adjust:     100%; /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
+  font-size: 62.5%;
+  /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
+  overflow-y: scroll;
+  /* Keeps page centered in all browsers regardless of content height */
+  -webkit-text-size-adjust: 100%;
+  /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
+  -ms-text-size-adjust: 100%;
+  /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
 }
+
+/* line 28, sass/partials/_reset.scss */
 body {
-	background: #fff;
+  background: #fff;
 }
+
+/* line 40, sass/partials/_reset.scss */
 article,
 aside,
 details,
@@ -63,194 +59,280 @@ header,
 main,
 nav,
 section {
-	display: block;
-}
-ol, ul {
-	list-style: none;
-}
-table { /* tables still need 'cellspacing="0"' in the markup */
-	border-collapse: separate;
-	border-spacing: 0;
-}
-caption, th, td {
-	font-weight: normal;
-	text-align: left;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: "";
-}
-blockquote, q {
-	quotes: "" "";
-}
-a:focus {
-	outline: thin dotted;
-}
-a:hover,
-a:active { /* Improves readability when focused and also mouse hovered in all browsers people.opera.com/patrickl/experiments/keyboard/test */
-	outline: 0;
-}
-a img {
-	border: 0;
+  display: block;
 }
 
+/* line 43, sass/partials/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 46, sass/partials/_reset.scss */
+table {
+  /* tables still need 'cellspacing="0"' in the markup */
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+/* line 50, sass/partials/_reset.scss */
+caption, th, td {
+  font-weight: normal;
+  text-align: left;
+}
+
+/* line 55, sass/partials/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+}
+
+/* line 58, sass/partials/_reset.scss */
+blockquote, q {
+  quotes: "" "";
+}
+
+/* line 61, sass/partials/_reset.scss */
+a:focus {
+  outline: thin dotted;
+}
+
+/* line 65, sass/partials/_reset.scss */
+a:hover,
+a:active {
+  /* Improves readability when focused and also mouse hovered in all browsers people.opera.com/patrickl/experiments/keyboard/test */
+  outline: 0;
+}
+
+/* line 68, sass/partials/_reset.scss */
+a img {
+  border: 0;
+}
 
 /* =Global
 ----------------------------------------------- */
-
+/* line 8, sass/partials/_global.scss */
 body,
 button,
 input,
 select,
 textarea {
-	color: #404040;
-	font-family: sans-serif;
-	font-size: 16px;
-	font-size: 1.6rem;
-	line-height: 1.5;
+  color: #404040;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 1.5;
 }
 
 /* Headings */
+/* line 17, sass/partials/_global.scss */
 h1, h2, h3, h4, h5, h6 {
-	clear: both;
+  clear: both;
 }
+
+/* line 20, sass/partials/_global.scss */
 hr {
-	background-color: #ccc;
-	border: 0;
-	height: 1px;
-	margin-bottom: 1.5em;
+  background-color: #ccc;
+  border: 0;
+  height: 1px;
+  margin-bottom: 1.5em;
 }
 
 /* Text elements */
+/* line 28, sass/partials/_global.scss */
 p {
-	margin-bottom: 1.5em;
+  margin-bottom: 1.5em;
 }
+
+/* line 31, sass/partials/_global.scss */
 ul, ol {
-	margin: 0 0 1.5em 3em;
+  margin: 0 0 1.5em 3em;
 }
+
+/* line 34, sass/partials/_global.scss */
 ul {
-	list-style: disc;
+  list-style: disc;
 }
+
+/* line 37, sass/partials/_global.scss */
 ol {
-	list-style: decimal;
+  list-style: decimal;
 }
+
+/* line 41, sass/partials/_global.scss */
 li > ul,
 li > ol {
-	margin-bottom: 0;
-	margin-left: 1.5em;
+  margin-bottom: 0;
+  margin-left: 1.5em;
 }
+
+/* line 45, sass/partials/_global.scss */
 dt {
-	font-weight: bold;
+  font-weight: bold;
 }
+
+/* line 48, sass/partials/_global.scss */
 dd {
-	margin: 0 1.5em 1.5em;
+  margin: 0 1.5em 1.5em;
 }
+
+/* line 51, sass/partials/_global.scss */
 b, strong {
-	font-weight: bold;
+  font-weight: bold;
 }
+
+/* line 54, sass/partials/_global.scss */
 dfn, cite, em, i {
-	font-style: italic;
+  font-style: italic;
 }
+
+/* line 57, sass/partials/_global.scss */
 blockquote {
-	margin: 0 1.5em;
+  margin: 0 1.5em;
 }
+
+/* line 60, sass/partials/_global.scss */
 address {
-	margin: 0 0 1.5em;
+  margin: 0 0 1.5em;
 }
+
+/* line 63, sass/partials/_global.scss */
 pre {
-	background: #eee;
-	font-family: "Courier 10 Pitch", Courier, monospace;
-	font-size: 15px;
-	font-size: 1.5rem;
-	line-height: 1.6;
-	margin-bottom: 1.6em;
-	max-width: 100%;
-	overflow: auto;
-	padding: 1.6em;
+  background: #eee;
+  font-family: "Courier 10 Pitch", Courier, monospace;
+  font-size: 15px;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  margin-bottom: 1.6em;
+  max-width: 100%;
+  overflow: auto;
+  padding: 1.6em;
 }
+
+/* line 74, sass/partials/_global.scss */
 code, kbd, tt, var {
-	font: 15px Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+  font: 15px Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
 }
+
+/* line 77, sass/partials/_global.scss */
 abbr, acronym {
-	border-bottom: 1px dotted #666;
-	cursor: help;
+  border-bottom: 1px dotted #666;
+  cursor: help;
 }
+
+/* line 81, sass/partials/_global.scss */
 mark, ins {
-	background: #fff9c0;
-	text-decoration: none;
+  background: #fff9c0;
+  text-decoration: none;
 }
+
+/* line 86, sass/partials/_global.scss */
 sup,
 sub {
-	font-size: 75%;
-	height: 0;
-	line-height: 0;
-	position: relative;
-	vertical-align: baseline;
+  font-size: 75%;
+  height: 0;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
 }
+
+/* line 93, sass/partials/_global.scss */
 sup {
-	bottom: 1ex;
+  bottom: 1ex;
 }
+
+/* line 96, sass/partials/_global.scss */
 sub {
-	top: .5ex;
+  top: .5ex;
 }
+
+/* line 99, sass/partials/_global.scss */
 small {
-	font-size: 75%;
+  font-size: 75%;
 }
+
+/* line 102, sass/partials/_global.scss */
 big {
-	font-size: 125%;
+  font-size: 125%;
 }
+
+/* line 105, sass/partials/_global.scss */
 figure {
-	margin: 0;
+  margin: 0;
 }
+
+/* line 108, sass/partials/_global.scss */
 table {
-	margin: 0 0 1.5em;
-	width: 100%;
+  margin: 0 0 1.5em;
+  width: 100%;
 }
+
+/* line 112, sass/partials/_global.scss */
 th {
-	font-weight: bold;
+  font-weight: bold;
 }
+
+/* line 115, sass/partials/_global.scss */
 img {
-	height: auto; /* Make sure images are scaled correctly. */
-	max-width: 100%; /* Adhere to container width. */
+  height: auto;
+  /* Make sure images are scaled correctly. */
+  max-width: 100%;
+  /* Adhere to container width. */
 }
+
+/* line 122, sass/partials/_global.scss */
 button,
 input,
 select,
 textarea {
-	font-size: 100%; /* Corrects font size not being inherited in all browsers */
-	margin: 0; /* Addresses margins set differently in IE6/7, F3/4, S5, Chrome */
-	vertical-align: baseline; /* Improves appearance and consistency in all browsers */
-	*vertical-align: middle; /* Improves appearance and consistency in all browsers */
+  font-size: 100%;
+  /* Corrects font size not being inherited in all browsers */
+  margin: 0;
+  /* Addresses margins set differently in IE6/7, F3/4, S5, Chrome */
+  vertical-align: baseline;
+  /* Improves appearance and consistency in all browsers */
+  *vertical-align: middle;
+  /* Improves appearance and consistency in all browsers */
 }
+
+/* line 129, sass/partials/_global.scss */
 button,
 input {
-	line-height: normal; /* Addresses FF3/4 setting line-height using !important in the UA stylesheet */
+  line-height: normal;
+  /* Addresses FF3/4 setting line-height using !important in the UA stylesheet */
 }
+
+/* line 135, sass/partials/_global.scss */
 button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-	border: 1px solid #ccc;
-	border-color: #ccc #ccc #bbb #ccc;
-	border-radius: 3px;
-	background: #e6e6e6;
-	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
-	color: rgba(0, 0, 0, .8);
-	cursor: pointer; /* Improves usability and consistency of cursor style between image-type 'input' and others */
-	-webkit-appearance: button; /* Corrects inability to style clickable 'input' types in iOS */
-	font-size: 12px;
-	font-size: 1.2rem;
-	line-height: 1;
-	padding: .6em 1em .4em;
-	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+  border: 1px solid #ccc;
+  border-color: #ccc #ccc #bbb #ccc;
+  border-radius: 3px;
+  background: #e6e6e6;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
+  color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+  /* Improves usability and consistency of cursor style between image-type 'input' and others */
+  -webkit-appearance: button;
+  /* Corrects inability to style clickable 'input' types in iOS */
+  font-size: 12px;
+  font-size: 1.2rem;
+  line-height: 1;
+  padding: .6em 1em .4em;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
 }
+
+/* line 153, sass/partials/_global.scss */
 button:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
-	border-color: #ccc #bbb #aaa #bbb;
-	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02);
+  border-color: #ccc #bbb #aaa #bbb;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02);
 }
+
+/* line 164, sass/partials/_global.scss */
 button:focus,
 input[type="button"]:focus,
 input[type="reset"]:focus,
@@ -259,118 +341,156 @@ button:active,
 input[type="button"]:active,
 input[type="reset"]:active,
 input[type="submit"]:active {
-	border-color: #aaa #bbb #bbb #bbb;
-	box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15);
+  border-color: #aaa #bbb #bbb #bbb;
+  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15);
 }
+
+/* line 169, sass/partials/_global.scss */
 input[type="checkbox"],
 input[type="radio"] {
-	box-sizing: border-box; /* Addresses box sizing set to content-box in IE8/9 */
-	padding: 0; /* Addresses excess padding in IE8/9 */
+  box-sizing: border-box;
+  /* Addresses box sizing set to content-box in IE8/9 */
+  padding: 0;
+  /* Addresses excess padding in IE8/9 */
 }
+
+/* line 173, sass/partials/_global.scss */
 input[type="search"] {
-	-webkit-appearance: textfield; /* Addresses appearance set to searchfield in S5, Chrome */
-	-webkit-box-sizing: content-box; /* Addresses box sizing set to border-box in S5, Chrome (include -moz to future-proof) */
-	-moz-box-sizing:    content-box;
-	box-sizing:         content-box;
+  -webkit-appearance: textfield;
+  /* Addresses appearance set to searchfield in S5, Chrome */
+  -webkit-box-sizing: content-box;
+  /* Addresses box sizing set to border-box in S5, Chrome (include -moz to future-proof) */
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
 }
-input[type="search"]::-webkit-search-decoration { /* Corrects inner padding displayed oddly in S5, Chrome on OSX */
-	-webkit-appearance: none;
+
+/* line 179, sass/partials/_global.scss */
+input[type="search"]::-webkit-search-decoration {
+  /* Corrects inner padding displayed oddly in S5, Chrome on OSX */
+  -webkit-appearance: none;
 }
+
+/* line 183, sass/partials/_global.scss */
 button::-moz-focus-inner,
-input::-moz-focus-inner { /* Corrects inner padding and border displayed oddly in FF3/4 www.sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/ */
-	border: 0;
-	padding: 0;
+input::-moz-focus-inner {
+  /* Corrects inner padding and border displayed oddly in FF3/4 www.sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/ */
+  border: 0;
+  padding: 0;
 }
+
+/* line 192, sass/partials/_global.scss */
 input[type="text"],
 input[type="email"],
 input[type="url"],
 input[type="password"],
 input[type="search"],
 textarea {
-	color: #666;
-	border: 1px solid #ccc;
-	border-radius: 3px;
+  color: #666;
+  border: 1px solid #ccc;
+  border-radius: 3px;
 }
+
+/* line 202, sass/partials/_global.scss */
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="url"]:focus,
 input[type="password"]:focus,
 input[type="search"]:focus,
 textarea:focus {
-	color: #111;
+  color: #111;
 }
+
+/* line 209, sass/partials/_global.scss */
 input[type="text"],
 input[type="email"],
 input[type="url"],
 input[type="password"],
 input[type="search"] {
-	padding: 3px;
+  padding: 3px;
 }
+
+/* line 212, sass/partials/_global.scss */
 textarea {
-	overflow: auto; /* Removes default vertical scrollbar in IE6/7/8/9 */
-	padding-left: 3px;
-	vertical-align: top; /* Improves readability and alignment in all browsers */
-	width: 98%;
+  overflow: auto;
+  /* Removes default vertical scrollbar in IE6/7/8/9 */
+  padding-left: 3px;
+  vertical-align: top;
+  /* Improves readability and alignment in all browsers */
+  width: 98%;
 }
 
 /* Links */
+/* line 220, sass/partials/_global.scss */
 a {
-	color: royalblue;
+  color: royalblue;
 }
+
+/* line 223, sass/partials/_global.scss */
 a:visited {
-	color: purple;
+  color: purple;
 }
+
+/* line 228, sass/partials/_global.scss */
 a:hover,
 a:focus,
 a:active {
-	color: midnightblue;
+  color: midnightblue;
 }
 
 /* Alignment */
+/* line 233, sass/partials/_global.scss */
 .alignleft {
-	display: inline;
-	float: left;
-	margin-right: 1.5em;
+  display: inline;
+  float: left;
+  margin-right: 1.5em;
 }
+
+/* line 238, sass/partials/_global.scss */
 .alignright {
-	display: inline;
-	float: right;
-	margin-left: 1.5em;
+  display: inline;
+  float: right;
+  margin-left: 1.5em;
 }
+
+/* line 243, sass/partials/_global.scss */
 .aligncenter {
-	clear: both;
-	display: block;
-	margin: 0 auto;
+  clear: both;
+  display: block;
+  margin: 0 auto;
 }
 
 /* Text meant only for screen readers */
+/* line 250, sass/partials/_global.scss */
 .screen-reader-text {
-	clip: rect(1px, 1px, 1px, 1px);
-	position: absolute !important;
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
 }
 
+/* line 257, sass/partials/_global.scss */
 .screen-reader-text:hover,
 .screen-reader-text:active,
 .screen-reader-text:focus {
-	background-color: #f1f1f1;
-	border-radius: 3px;
-	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
-	clip: auto !important;
-	color: #21759b;
-	display: block;
-	font-size: 14px;
-	font-weight: bold;
-	height: auto;
-	left: 5px;
-	line-height: normal;
-	padding: 15px 23px 14px;
-	text-decoration: none;
-	top: 5px;
-	width: auto;
-	z-index: 100000; /* Above WP toolbar */
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+  /* Above WP toolbar */
 }
 
 /* Clearing */
+/* line 288, sass/partials/_global.scss */
 .clear:before,
 .clear:after,
 .entry-content:before,
@@ -383,236 +503,255 @@ a:active {
 .site-content:after,
 .site-footer:before,
 .site-footer:after {
-	content: '';
-	display: table;
+  content: '';
+  display: table;
 }
 
+/* line 298, sass/partials/_global.scss */
 .clear:after,
 .entry-content:after,
 .comment-content:after,
 .site-header:after,
 .site-content:after,
 .site-footer:after {
-	clear: both;
+  clear: both;
 }
-
 
 /* =Menu
 ----------------------------------------------- */
-
+/* line 4, sass/partials/_menu.scss */
 .main-navigation {
-	clear: both;
-	display: block;
-	float: left;
-	width: 100%;
+  clear: both;
+  display: block;
+  float: left;
+  width: 100%;
 }
+
+/* line 10, sass/partials/_menu.scss */
 .main-navigation ul {
-	list-style: none;
-	margin: 0;
-	padding-left: 0;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
 }
+
+/* line 15, sass/partials/_menu.scss */
 .main-navigation li {
-	float: left;
-	position: relative;
+  float: left;
+  position: relative;
 }
+
+/* line 19, sass/partials/_menu.scss */
 .main-navigation a {
-	display: block;
-	text-decoration: none;
+  display: block;
+  text-decoration: none;
 }
+
+/* line 23, sass/partials/_menu.scss */
 .main-navigation ul ul {
-	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-	display: none;
-	float: left;
-	left: 0;
-	position: absolute;
-	top: 1.5em;
-	z-index: 99999;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  display: none;
+  float: left;
+  left: 0;
+  position: absolute;
+  top: 1.5em;
+  z-index: 99999;
 }
+
+/* line 32, sass/partials/_menu.scss */
 .main-navigation ul ul ul {
-	left: 100%;
-	top: 0;
+  left: 100%;
+  top: 0;
 }
+
+/* line 36, sass/partials/_menu.scss */
 .main-navigation ul ul a {
-	width: 200px;
+  width: 200px;
 }
-.main-navigation ul ul li {
-}
-.main-navigation li:hover > a {
-}
-.main-navigation ul ul :hover > a {
-}
-.main-navigation ul ul a:hover {
-}
+
+/* line 47, sass/partials/_menu.scss */
 .main-navigation ul li:hover > ul {
-	display: block;
-}
-.main-navigation li.current_page_item a,
-.main-navigation li.current-menu-item a {
+  display: block;
 }
 
 /* Small menu */
+/* line 55, sass/partials/_menu.scss */
 .menu-toggle {
-	cursor: pointer;
-	display: none;
+  cursor: pointer;
+  display: none;
 }
 
 @media screen and (max-width: 600px) {
-	.menu-toggle,
-	.main-navigation.toggled .nav-menu {
-		display: block;
-	}
+  /* line 62, sass/partials/_menu.scss */
+  .menu-toggle,
+  .main-navigation.toggled .nav-menu {
+    display: block;
+  }
 
-	.main-navigation ul {
-		display: none;
-	}
+  /* line 66, sass/partials/_menu.scss */
+  .main-navigation ul {
+    display: none;
+  }
 }
-
-
 /* =Content
 ----------------------------------------------- */
-
-.sticky {
-}
+/* line 6, sass/partials/_content.scss */
 .hentry {
-	margin: 0 0 1.5em;
+  margin: 0 0 1.5em;
 }
+
+/* line 10, sass/partials/_content.scss */
 .byline,
 .updated {
-	display: none;
+  display: none;
 }
+
+/* line 14, sass/partials/_content.scss */
 .single .byline,
 .group-blog .byline {
-	display: inline;
+  display: inline;
 }
+
+/* line 19, sass/partials/_content.scss */
 .page-content,
 .entry-content,
 .entry-summary {
-	margin: 1.5em 0 0;
-}
-.page-links {
-	clear: both;
-	margin: 0 0 1.5em;
+  margin: 1.5em 0 0;
 }
 
+/* line 22, sass/partials/_content.scss */
+.page-links {
+  clear: both;
+  margin: 0 0 1.5em;
+}
 
 /* =Asides
 ----------------------------------------------- */
-
+/* line 5, sass/partials/_asides.scss */
 .blog .format-aside .entry-title,
 .archive .format-aside .entry-title {
-	display: none;
+  display: none;
 }
-
 
 /* =Media
 ----------------------------------------------- */
-
+/* line 6, sass/partials/_media.scss */
 .page-content img.wp-smiley,
 .entry-content img.wp-smiley,
 .comment-content img.wp-smiley {
-	border: none;
-	margin-bottom: 0;
-	margin-top: 0;
-	padding: 0;
+  border: none;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 0;
 }
+
+/* line 12, sass/partials/_media.scss */
 .wp-caption {
-	border: 1px solid #ccc;
-	margin-bottom: 1.5em;
-	max-width: 100%;
+  border: 1px solid #ccc;
+  margin-bottom: 1.5em;
+  max-width: 100%;
 }
+
+/* line 17, sass/partials/_media.scss */
 .wp-caption img[class*="wp-image-"] {
-	display: block;
-	margin: 1.2% auto 0;
-	max-width: 98%;
+  display: block;
+  margin: 1.2% auto 0;
+  max-width: 98%;
 }
+
+/* line 22, sass/partials/_media.scss */
 .wp-caption-text {
-	text-align: center;
+  text-align: center;
 }
+
+/* line 25, sass/partials/_media.scss */
 .wp-caption .wp-caption-text {
-	margin: 0.8075em 0;
+  margin: 0.8075em 0;
 }
+
+/* line 28, sass/partials/_media.scss */
 .site-main .gallery {
-	margin-bottom: 1.5em;
+  margin-bottom: 1.5em;
 }
-.gallery-caption {
-}
+
+/* line 33, sass/partials/_media.scss */
 .site-main .gallery a img {
-	border: none;
-	height: auto;
-	max-width: 90%;
+  border: none;
+  height: auto;
+  max-width: 90%;
 }
+
+/* line 38, sass/partials/_media.scss */
 .site-main .gallery dd {
-	margin: 0;
-}
-.site-main .gallery-columns-4 .gallery-item {
-}
-.site-main .gallery-columns-4 .gallery-item img {
+  margin: 0;
 }
 
 /* Make sure embeds and iframes fit their containers */
+/* line 49, sass/partials/_media.scss */
 embed,
 iframe,
 object {
-	max-width: 100%;
+  max-width: 100%;
 }
-
 
 /* =Navigation
 ----------------------------------------------- */
-
+/* line 4, sass/partials/_navigation.scss */
 .site-main [class*="navigation"] {
-	margin: 0 0 1.5em;
-	overflow: hidden;
-}
-[class*="navigation"] .nav-previous {
-	float: left;
-	width: 50%;
-}
-[class*="navigation"] .nav-next {
-	float: right;
-	text-align: right;
-	width: 50%;
+  margin: 0 0 1.5em;
+  overflow: hidden;
 }
 
+/* line 8, sass/partials/_navigation.scss */
+[class*="navigation"] .nav-previous {
+  float: left;
+  width: 50%;
+}
+
+/* line 12, sass/partials/_navigation.scss */
+[class*="navigation"] .nav-next {
+  float: right;
+  text-align: right;
+  width: 50%;
+}
 
 /* =Comments
 ----------------------------------------------- */
-
+/* line 4, sass/partials/_comments.scss */
 .comment-content a {
-	word-wrap: break-word;
+  word-wrap: break-word;
 }
-.bypostauthor {
-}
-
 
 /* =Widgets
 ----------------------------------------------- */
-
+/* line 4, sass/partials/_widgets.scss */
 .widget {
-	margin: 0 0 1.5em;
+  margin: 0 0 1.5em;
 }
 
 /* Make sure select elements fit in widgets */
+/* line 9, sass/partials/_widgets.scss */
 .widget select {
-	max-width: 100%;
+  max-width: 100%;
 }
 
 /* Search widget */
+/* line 14, sass/partials/_widgets.scss */
 .widget_search .search-submit {
-	display: none;
+  display: none;
 }
-
 
 /* =Infinite Scroll
 ----------------------------------------------- */
-
 /* Globally hidden elements when Infinite Scroll is supported and in use. */
-.infinite-scroll .paging-navigation, /* Older / Newer Posts Navigation (always hidden) */
-.infinite-scroll.neverending .site-footer { /* Theme Footer (when set to scrolling) */
-	display: none;
+/* line 6, sass/partials/_scroll.scss */
+.infinite-scroll .paging-navigation,
+.infinite-scroll.neverending .site-footer {
+  /* Theme Footer (when set to scrolling) */
+  display: none;
 }
 
 /* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before */
+/* line 11, sass/partials/_scroll.scss */
 .infinity-end.neverending .site-footer {
-	display: block;
+  display: block;
 }

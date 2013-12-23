@@ -13,6 +13,8 @@ textarea {
 	line-height: 1.5;
 }
 
+#page {max-width:900px; margin:0 auto;}
+
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
 	clear: both;
@@ -218,15 +220,15 @@ textarea {
 
 /* Links */
 a {
-	color: royalblue;
+	color: $brand-colour;
 }
 a:visited {
-	color: purple;
+	color: $brand-colour;
 }
 a:hover,
 a:focus,
 a:active {
-	color: midnightblue;
+	color: $brand-colour;
 }
 
 /* Alignment */

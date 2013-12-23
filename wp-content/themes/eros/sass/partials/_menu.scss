@@ -15,10 +15,18 @@
 .main-navigation li {
 	float: left;
 	position: relative;
+	width:24%;
+	padding-right:1%;
 }
 .main-navigation a {
 	display: block;
 	text-decoration: none;
+	color: $grey;
+	padding:10px 5%;
+	width:90%;
+	@include gradient(#fff, #333);
+	border:1px solid #666;
+	text-align:center;
 }
 .main-navigation ul ul {
 	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);

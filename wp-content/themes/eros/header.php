@@ -23,9 +23,19 @@
 	<?php do_action( 'before' ); ?>
 	<header id="masthead" class="site-header" role="banner">
 		<div class="site-branding">
-			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+			<div class="logo">
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/eros_logo.png" alt="<?php bloginfo( 'name' ); ?> - <?php bloginfo( 'description' ); ?>">
+				</a>
+			</div>
 		</div>
+
+		<?php get_search_form(true); ?>
+		<?php if  (function_exists ('wplb_login'))   { wplb_login(); } ?>
+
+
+		<?php wp_nav_menu( array( 'theme_location' => 'secondary' ) ); ?>
+
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<h1 class="menu-toggle"><?php _e( 'Menu', 'eros' ); ?></h1>
@@ -33,6 +43,12 @@
 
 			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 		</nav><!-- #site-navigation -->
+
+
+		<img src="<?php header_image(); ?>" class="header-banner" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
+
+
 	</header><!-- #masthead -->
+
 
 	<div id="content" class="site-content">

@@ -1,9 +1,9 @@
 /*!
-Theme Name: wp-tuts
-Theme URI: http://underscores.me/
-Author: Underscores.me
-Author URI: http://underscores.me/
-Description: Description
+Theme Name: eros
+Theme URI: http://giner.com.au/
+Author: Rick Giner
+Author URI: http://giner.com.au/
+Description: eros Wordpress theme
 Version: 1.0
 License: GNU General Public License
 License URI: license.txt
@@ -11,7 +11,7 @@ Tags:
 */
 /* =Reset
 -------------------------------------------------------------- */
-/* line 11, sass/partials/_reset.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_reset\.scss}line{font-family:\0000311}}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -31,7 +31,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
   vertical-align: baseline;
 }
 
-/* line 22, sass/partials/_reset.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_reset\.scss}line{font-family:\0000322}}
 html {
   font-size: 62.5%;
   /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
@@ -43,12 +43,12 @@ html {
   /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
 }
 
-/* line 28, sass/partials/_reset.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_reset\.scss}line{font-family:\0000328}}
 body {
   background: #fff;
 }
 
-/* line 40, sass/partials/_reset.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_reset\.scss}line{font-family:\0000340}}
 article,
 aside,
 details,
@@ -62,80 +62,79 @@ section {
   display: block;
 }
 
-/* line 43, sass/partials/_reset.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_reset\.scss}line{font-family:\0000343}}
 ol, ul {
   list-style: none;
 }
 
-/* line 46, sass/partials/_reset.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_reset\.scss}line{font-family:\0000346}}
 table {
   /* tables still need 'cellspacing="0"' in the markup */
   border-collapse: separate;
   border-spacing: 0;
 }
 
-/* line 50, sass/partials/_reset.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_reset\.scss}line{font-family:\0000350}}
 caption, th, td {
   font-weight: normal;
   text-align: left;
 }
 
-/* line 55, sass/partials/_reset.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_reset\.scss}line{font-family:\0000355}}
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: "";
 }
 
-/* line 58, sass/partials/_reset.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_reset\.scss}line{font-family:\0000358}}
 blockquote, q {
   quotes: "" "";
 }
 
-/* line 61, sass/partials/_reset.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_reset\.scss}line{font-family:\0000361}}
 a:focus {
   outline: thin dotted;
 }
 
-/* line 65, sass/partials/_reset.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_reset\.scss}line{font-family:\0000365}}
 a:hover,
 a:active {
   /* Improves readability when focused and also mouse hovered in all browsers people.opera.com/patrickl/experiments/keyboard/test */
   outline: 0;
 }
 
-/* line 68, sass/partials/_reset.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_reset\.scss}line{font-family:\0000368}}
 a img {
   border: 0;
 }
 
 /* =Global
 ----------------------------------------------- */
-/* line 8, sass/partials/_global.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\000038}}
 body,
 button,
 input,
 select,
 textarea {
   color: #404040;
-  font-family: sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-size: 1.6rem;
   line-height: 1.5;
 }
 
-/* line 16, sass/partials/_global.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\0000316}}
 #page {
-  max-width: 900px;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 /* Headings */
-/* line 19, sass/partials/_global.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\0000319}}
 h1, h2, h3, h4, h5, h6 {
   clear: both;
 }
 
-/* line 22, sass/partials/_global.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\0000322}}
 hr {
   background-color: #ccc;
   border: 0;
@@ -144,64 +143,64 @@ hr {
 }
 
 /* Text elements */
-/* line 30, sass/partials/_global.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\0000330}}
 p {
   margin-bottom: 1.5em;
 }
 
-/* line 33, sass/partials/_global.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\0000333}}
 ul, ol {
   margin: 0 0 1.5em 3em;
 }
 
-/* line 36, sass/partials/_global.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\0000336}}
 ul {
   list-style: disc;
 }
 
-/* line 39, sass/partials/_global.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\0000339}}
 ol {
   list-style: decimal;
 }
 
-/* line 43, sass/partials/_global.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\0000343}}
 li > ul,
 li > ol {
   margin-bottom: 0;
   margin-left: 1.5em;
 }
 
-/* line 47, sass/partials/_global.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\0000347}}
 dt {
   font-weight: bold;
 }
 
-/* line 50, sass/partials/_global.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\0000350}}
 dd {
   margin: 0 1.5em 1.5em;
 }
 
-/* line 53, sass/partials/_global.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\0000353}}
 b, strong {
   font-weight: bold;
 }
 
-/* line 56, sass/partials/_global.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\0000356}}
 dfn, cite, em, i {
   font-style: italic;
 }
 
-/* line 59, sass/partials/_global.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\0000359}}
 blockquote {
   margin: 0 1.5em;
 }
 
-/* line 62, sass/partials/_global.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\0000362}}
 address {
   margin: 0 0 1.5em;
 }
 
-/* line 65, sass/partials/_global.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\0000365}}
 pre {
   background: #eee;
   font-family: "Courier 10 Pitch", Courier, monospace;
@@ -214,24 +213,24 @@ pre {
   padding: 1.6em;
 }
 
-/* line 76, sass/partials/_global.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\0000376}}
 code, kbd, tt, var {
   font: 15px Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
 }
 
-/* line 79, sass/partials/_global.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\0000379}}
 abbr, acronym {
   border-bottom: 1px dotted #666;
   cursor: help;
 }
 
-/* line 83, sass/partials/_global.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\0000383}}
 mark, ins {
   background: #fff9c0;
   text-decoration: none;
 }
 
-/* line 88, sass/partials/_global.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\0000388}}
 sup,
 sub {
   font-size: 75%;
@@ -241,43 +240,43 @@ sub {
   vertical-align: baseline;
 }
 
-/* line 95, sass/partials/_global.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\0000395}}
 sup {
   bottom: 1ex;
 }
 
-/* line 98, sass/partials/_global.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\0000398}}
 sub {
   top: .5ex;
 }
 
-/* line 101, sass/partials/_global.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\00003101}}
 small {
   font-size: 75%;
 }
 
-/* line 104, sass/partials/_global.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\00003104}}
 big {
   font-size: 125%;
 }
 
-/* line 107, sass/partials/_global.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\00003107}}
 figure {
   margin: 0;
 }
 
-/* line 110, sass/partials/_global.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\00003110}}
 table {
   margin: 0 0 1.5em;
   width: 100%;
 }
 
-/* line 114, sass/partials/_global.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\00003114}}
 th {
   font-weight: bold;
 }
 
-/* line 117, sass/partials/_global.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\00003117}}
 img {
   height: auto;
   /* Make sure images are scaled correctly. */
@@ -285,7 +284,7 @@ img {
   /* Adhere to container width. */
 }
 
-/* line 124, sass/partials/_global.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\00003124}}
 button,
 input,
 select,
@@ -300,24 +299,21 @@ textarea {
   /* Improves appearance and consistency in all browsers */
 }
 
-/* line 131, sass/partials/_global.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\00003131}}
 button,
 input {
   line-height: normal;
   /* Addresses FF3/4 setting line-height using !important in the UA stylesheet */
 }
 
-/* line 137, sass/partials/_global.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\00003137}}
 button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-  border: 1px solid #ccc;
-  border-color: #ccc #ccc #bbb #ccc;
-  border-radius: 3px;
-  background: #e6e6e6;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
-  color: rgba(0, 0, 0, 0.8);
+  border: none;
+  border-radius: 20px;
+  color: white;
   cursor: pointer;
   /* Improves usability and consistency of cursor style between image-type 'input' and others */
   -webkit-appearance: button;
@@ -325,20 +321,46 @@ input[type="submit"] {
   font-size: 12px;
   font-size: 1.2rem;
   line-height: 1;
-  padding: .6em 1em .4em;
+  padding: .4em 1em .6em;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+  background-color: #c20c0a;
+  /* Fallback Color */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fd8844), to(#c20c0a));
+  /* Saf4+, Chrome */
+  background-image: -webkit-linear-gradient(top, #fd8844, #c20c0a);
+  /* Chrome 10+, Saf5.1+, iOS 5+ */
+  background-image: -moz-linear-gradient(top, #fd8844, #c20c0a);
+  /* FF3.6 */
+  background-image: -ms-linear-gradient(top, #fd8844, #c20c0a);
+  /* IE10 */
+  background-image: -o-linear-gradient(top, #fd8844, #c20c0a);
+  /* Opera 11.10+ */
+  background-image: linear-gradient(top, #fd8844, #c20c0a);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#fd8844', EndColorStr='#c20c0a');
 }
 
-/* line 155, sass/partials/_global.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\00003153}}
 button:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
-  border-color: #ccc #bbb #aaa #bbb;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02);
+  background-color: #fd8844;
+  /* Fallback Color */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#c20c0a), to(#fd8844));
+  /* Saf4+, Chrome */
+  background-image: -webkit-linear-gradient(top, #c20c0a, #fd8844);
+  /* Chrome 10+, Saf5.1+, iOS 5+ */
+  background-image: -moz-linear-gradient(top, #c20c0a, #fd8844);
+  /* FF3.6 */
+  background-image: -ms-linear-gradient(top, #c20c0a, #fd8844);
+  /* IE10 */
+  background-image: -o-linear-gradient(top, #c20c0a, #fd8844);
+  /* Opera 11.10+ */
+  background-image: linear-gradient(top, #c20c0a, #fd8844);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#c20c0a', EndColorStr='#fd8844');
 }
 
-/* line 166, sass/partials/_global.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\00003163}}
 button:focus,
 input[type="button"]:focus,
 input[type="reset"]:focus,
@@ -347,11 +369,23 @@ button:active,
 input[type="button"]:active,
 input[type="reset"]:active,
 input[type="submit"]:active {
-  border-color: #aaa #bbb #bbb #bbb;
-  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15);
+  background-color: #fd8844;
+  /* Fallback Color */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#c20c0a), to(#fd8844));
+  /* Saf4+, Chrome */
+  background-image: -webkit-linear-gradient(top, #c20c0a, #fd8844);
+  /* Chrome 10+, Saf5.1+, iOS 5+ */
+  background-image: -moz-linear-gradient(top, #c20c0a, #fd8844);
+  /* FF3.6 */
+  background-image: -ms-linear-gradient(top, #c20c0a, #fd8844);
+  /* IE10 */
+  background-image: -o-linear-gradient(top, #c20c0a, #fd8844);
+  /* Opera 11.10+ */
+  background-image: linear-gradient(top, #c20c0a, #fd8844);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#c20c0a', EndColorStr='#fd8844');
 }
 
-/* line 171, sass/partials/_global.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\00003167}}
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -360,7 +394,7 @@ input[type="radio"] {
   /* Addresses excess padding in IE8/9 */
 }
 
-/* line 175, sass/partials/_global.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\00003171}}
 input[type="search"] {
   -webkit-appearance: textfield;
   /* Addresses appearance set to searchfield in S5, Chrome */
@@ -370,13 +404,13 @@ input[type="search"] {
   box-sizing: content-box;
 }
 
-/* line 181, sass/partials/_global.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\00003177}}
 input[type="search"]::-webkit-search-decoration {
   /* Corrects inner padding displayed oddly in S5, Chrome on OSX */
   -webkit-appearance: none;
 }
 
-/* line 185, sass/partials/_global.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\00003181}}
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   /* Corrects inner padding and border displayed oddly in FF3/4 www.sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/ */
@@ -384,7 +418,7 @@ input::-moz-focus-inner {
   padding: 0;
 }
 
-/* line 194, sass/partials/_global.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\00003190}}
 input[type="text"],
 input[type="email"],
 input[type="url"],
@@ -393,10 +427,10 @@ input[type="search"],
 textarea {
   color: #666;
   border: 1px solid #ccc;
-  border-radius: 3px;
+  border-radius: 20px;
 }
 
-/* line 204, sass/partials/_global.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\00003200}}
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="url"]:focus,
@@ -406,16 +440,16 @@ textarea:focus {
   color: #111;
 }
 
-/* line 211, sass/partials/_global.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\00003207}}
 input[type="text"],
 input[type="email"],
 input[type="url"],
 input[type="password"],
 input[type="search"] {
-  padding: 3px;
+  padding: 3px 8px;
 }
 
-/* line 214, sass/partials/_global.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\00003210}}
 textarea {
   overflow: auto;
   /* Removes default vertical scrollbar in IE6/7/8/9 */
@@ -426,39 +460,41 @@ textarea {
 }
 
 /* Links */
-/* line 222, sass/partials/_global.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\00003218}}
 a {
-  color: red;
+  color: #b3191e;
+  text-decoration: none;
 }
 
-/* line 225, sass/partials/_global.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\00003222}}
 a:visited {
-  color: red;
+  color: #b3191e;
 }
 
-/* line 230, sass/partials/_global.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\00003227}}
 a:hover,
 a:focus,
 a:active {
-  color: red;
+  color: #b3191e;
+  text-decoration: underline;
 }
 
 /* Alignment */
-/* line 235, sass/partials/_global.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\00003233}}
 .alignleft {
   display: inline;
   float: left;
   margin-right: 1.5em;
 }
 
-/* line 240, sass/partials/_global.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\00003238}}
 .alignright {
   display: inline;
   float: right;
   margin-left: 1.5em;
 }
 
-/* line 245, sass/partials/_global.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\00003243}}
 .aligncenter {
   clear: both;
   display: block;
@@ -466,13 +502,13 @@ a:active {
 }
 
 /* Text meant only for screen readers */
-/* line 252, sass/partials/_global.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\00003250}}
 .screen-reader-text {
   clip: rect(1px, 1px, 1px, 1px);
   position: absolute !important;
 }
 
-/* line 259, sass/partials/_global.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\00003257}}
 .screen-reader-text:hover,
 .screen-reader-text:active,
 .screen-reader-text:focus {
@@ -496,7 +532,7 @@ a:active {
 }
 
 /* Clearing */
-/* line 290, sass/partials/_global.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\00003288}}
 .clear:before,
 .clear:after,
 .entry-content:before,
@@ -513,7 +549,7 @@ a:active {
   display: table;
 }
 
-/* line 300, sass/partials/_global.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\00003298}}
 .clear:after,
 .entry-content:after,
 .comment-content:after,
@@ -523,9 +559,237 @@ a:active {
   clear: both;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\00003303}}
+#page {
+  margin: 15px;
+  position: relative;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\00003305}}
+.site-branding .logo {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\00003308}}
+#wplb_wrap {
+  float: none !important;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\00003309}}
+#loginform {
+  float: none;
+  text-align: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\00003310}}
+#loginform * {
+  float: none !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\00003311}}
+#wplb_wrap .wplb_field, .search-field {
+  vertical-align: top;
+  border-radius: 20px;
+  padding: 3px 8px 1px 8px;
+  height: 22px;
+  font-size: 12px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\00003312}}
+.wplb_link {
+  text-align: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\00003316}}
+.search-form {
+  text-align: center;
+  margin: 0 0 10px 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\00003317}}
+.search-form input {
+  vertical-align: top;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\00003318}}
+.header-banner {
+  width: 100%;
+  margin-top: 5px;
+}
+
+@media screen and (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\00003327}}
+  #page {
+    margin: 20px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\00003329}}
+  .site-branding .logo {
+    float: left;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\00003330}}
+  #wplb_wrap {
+    float: right !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\00003331}}
+  #loginform {
+    text-align: right;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\00003332}}
+  .search-form {
+    float: right;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\00003334}}
+  .main-navigation {
+    margin-top: 10px;
+  }
+}
+@media screen and (min-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\00003340}}
+  #page {
+    margin: 20px auto;
+    max-width: 900px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_global\.scss}line{font-family:\00003341}}
+  #wplb_wrap {
+    margin-bottom: 12px;
+  }
+}
+/* =Content
+----------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_content\.scss}line{font-family:\000036}}
+.hentry {
+  margin: 0 0 1.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_content\.scss}line{font-family:\0000310}}
+.byline,
+.updated {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_content\.scss}line{font-family:\0000314}}
+.single .byline,
+.group-blog .byline {
+  display: inline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_content\.scss}line{font-family:\0000319}}
+.page-content,
+.entry-content,
+.entry-summary {
+  margin: 1.5em 0 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_content\.scss}line{font-family:\0000322}}
+.page-links {
+  clear: both;
+  margin: 0 0 1.5em;
+}
+
+/* =Asides
+----------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_asides\.scss}line{font-family:\000035}}
+.blog .format-aside .entry-title,
+.archive .format-aside .entry-title {
+  display: none;
+}
+
+/* =Media
+----------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_media\.scss}line{font-family:\000036}}
+.page-content img.wp-smiley,
+.entry-content img.wp-smiley,
+.comment-content img.wp-smiley {
+  border: none;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_media\.scss}line{font-family:\0000312}}
+.wp-caption {
+  border: 1px solid #ccc;
+  margin-bottom: 1.5em;
+  max-width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_media\.scss}line{font-family:\0000317}}
+.wp-caption img[class*="wp-image-"] {
+  display: block;
+  margin: 1.2% auto 0;
+  max-width: 98%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_media\.scss}line{font-family:\0000322}}
+.wp-caption-text {
+  text-align: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_media\.scss}line{font-family:\0000325}}
+.wp-caption .wp-caption-text {
+  margin: 0.8075em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_media\.scss}line{font-family:\0000328}}
+.site-main .gallery {
+  margin-bottom: 1.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_media\.scss}line{font-family:\0000333}}
+.site-main .gallery a img {
+  border: none;
+  height: auto;
+  max-width: 90%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_media\.scss}line{font-family:\0000338}}
+.site-main .gallery dd {
+  margin: 0;
+}
+
+/* Make sure embeds and iframes fit their containers */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_media\.scss}line{font-family:\0000349}}
+embed,
+iframe,
+object {
+  max-width: 100%;
+}
+
+/* =Navigation
+----------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_navigation\.scss}line{font-family:\000034}}
+.site-main [class*="navigation"] {
+  margin: 0 0 1.5em;
+  overflow: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_navigation\.scss}line{font-family:\000038}}
+[class*="navigation"] .nav-previous {
+  float: left;
+  width: 50%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_navigation\.scss}line{font-family:\0000312}}
+[class*="navigation"] .nav-next {
+  float: right;
+  text-align: right;
+  width: 50%;
+}
+
 /* =Menu
 ----------------------------------------------- */
-/* line 4, sass/partials/_menu.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_navigation\.scss}line{font-family:\0000323}}
 .main-navigation {
   clear: both;
   display: block;
@@ -533,36 +797,62 @@ a:active {
   width: 100%;
 }
 
-/* line 10, sass/partials/_menu.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_navigation\.scss}line{font-family:\0000329}}
 .main-navigation ul {
   list-style: none;
   margin: 0;
   padding-left: 0;
 }
 
-/* line 15, sass/partials/_menu.scss */
-.main-navigation li {
-  float: left;
-  position: relative;
-  width: 24%;
-  padding-right: 1%;
-}
-
-/* line 21, sass/partials/_menu.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_navigation\.scss}line{font-family:\0000337}}
 .main-navigation a {
   display: block;
   text-decoration: none;
-  color: #333333;
+  color: #5f5f61;
   padding: 10px 5%;
   width: 90%;
-  background: -webkit-gradient(linear, left top, left bottom, from(white), to(#333333));
-  background: -moz-linear-gradient(top, white, #333333);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='white', endColorstr='#333333');
-  border: 1px solid #666;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #e7e7e7;
+  /* Fallback Color */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#e7e7e7));
+  /* Saf4+, Chrome */
+  background-image: -webkit-linear-gradient(top, #fbfbfb, #e7e7e7);
+  /* Chrome 10+, Saf5.1+, iOS 5+ */
+  background-image: -moz-linear-gradient(top, #fbfbfb, #e7e7e7);
+  /* FF3.6 */
+  background-image: -ms-linear-gradient(top, #fbfbfb, #e7e7e7);
+  /* IE10 */
+  background-image: -o-linear-gradient(top, #fbfbfb, #e7e7e7);
+  /* Opera 11.10+ */
+  background-image: linear-gradient(top, #fbfbfb, #e7e7e7);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#fbfbfb', EndColorStr='#e7e7e7');
+  border: 1px solid #ededed;
+  border-bottom: 1px solid #fff;
   text-align: center;
 }
 
-/* line 31, sass/partials/_menu.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_navigation\.scss}line{font-family:\0000349}}
+.main-navigation a:hover {
+  background-color: #fbfbfb;
+  /* Fallback Color */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e7e7e7), to(#fbfbfb));
+  /* Saf4+, Chrome */
+  background-image: -webkit-linear-gradient(top, #e7e7e7, #fbfbfb);
+  /* Chrome 10+, Saf5.1+, iOS 5+ */
+  background-image: -moz-linear-gradient(top, #e7e7e7, #fbfbfb);
+  /* FF3.6 */
+  background-image: -ms-linear-gradient(top, #e7e7e7, #fbfbfb);
+  /* IE10 */
+  background-image: -o-linear-gradient(top, #e7e7e7, #fbfbfb);
+  /* Opera 11.10+ */
+  background-image: linear-gradient(top, #e7e7e7, #fbfbfb);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#e7e7e7', EndColorStr='#fbfbfb');
+  border-bottom: 1px solid #ededed;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_navigation\.scss}line{font-family:\0000353}}
 .main-navigation ul ul {
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
   display: none;
@@ -573,185 +863,217 @@ a:active {
   z-index: 99999;
 }
 
-/* line 40, sass/partials/_menu.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_navigation\.scss}line{font-family:\0000362}}
 .main-navigation ul ul ul {
   left: 100%;
   top: 0;
 }
 
-/* line 44, sass/partials/_menu.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_navigation\.scss}line{font-family:\0000366}}
 .main-navigation ul ul a {
   width: 200px;
 }
 
-/* line 55, sass/partials/_menu.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_navigation\.scss}line{font-family:\0000377}}
 .main-navigation ul li:hover > ul {
   display: block;
 }
 
 /* Small menu */
-/* line 63, sass/partials/_menu.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_navigation\.scss}line{font-family:\0000385}}
 .menu-toggle {
   cursor: pointer;
   display: none;
 }
 
-@media screen and (max-width: 600px) {
-  /* line 70, sass/partials/_menu.scss */
-  .menu-toggle,
-  .main-navigation.toggled .nav-menu {
-    display: block;
-  }
-
-  /* line 74, sass/partials/_menu.scss */
-  .main-navigation ul {
-    display: none;
-  }
-}
-/* =Content
------------------------------------------------ */
-/* line 6, sass/partials/_content.scss */
-.hentry {
-  margin: 0 0 1.5em;
-}
-
-/* line 10, sass/partials/_content.scss */
-.byline,
-.updated {
-  display: none;
-}
-
-/* line 14, sass/partials/_content.scss */
-.single .byline,
-.group-blog .byline {
-  display: inline;
-}
-
-/* line 19, sass/partials/_content.scss */
-.page-content,
-.entry-content,
-.entry-summary {
-  margin: 1.5em 0 0;
-}
-
-/* line 22, sass/partials/_content.scss */
-.page-links {
-  clear: both;
-  margin: 0 0 1.5em;
-}
-
-/* =Asides
------------------------------------------------ */
-/* line 5, sass/partials/_asides.scss */
-.blog .format-aside .entry-title,
-.archive .format-aside .entry-title {
-  display: none;
-}
-
-/* =Media
------------------------------------------------ */
-/* line 6, sass/partials/_media.scss */
-.page-content img.wp-smiley,
-.entry-content img.wp-smiley,
-.comment-content img.wp-smiley {
-  border: none;
-  margin-bottom: 0;
-  margin-top: 0;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_navigation\.scss}line{font-family:\0000393}}
+ul#menu-sub-menu {
+  list-style: none;
   padding: 0;
-}
-
-/* line 12, sass/partials/_media.scss */
-.wp-caption {
-  border: 1px solid #ccc;
-  margin-bottom: 1.5em;
-  max-width: 100%;
-}
-
-/* line 17, sass/partials/_media.scss */
-.wp-caption img[class*="wp-image-"] {
-  display: block;
-  margin: 1.2% auto 0;
-  max-width: 98%;
-}
-
-/* line 22, sass/partials/_media.scss */
-.wp-caption-text {
+  margin: 0px 0 0 0;
   text-align: center;
 }
 
-/* line 25, sass/partials/_media.scss */
-.wp-caption .wp-caption-text {
-  margin: 0.8075em 0;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_navigation\.scss}line{font-family:\0000394}}
+ul#menu-sub-menu li {
+  display: inline-block;
+  padding: 0 5px;
 }
 
-/* line 28, sass/partials/_media.scss */
-.site-main .gallery {
-  margin-bottom: 1.5em;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_navigation\.scss}line{font-family:\0000395}}
+ul#menu-sub-menu li a {
+  color: #5f5f61;
+  font-size: 15px;
 }
 
-/* line 33, sass/partials/_media.scss */
-.site-main .gallery a img {
-  border: none;
-  height: auto;
-  max-width: 90%;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_navigation\.scss}line{font-family:\00003101}}
+.menu-toggle,
+.main-navigation.toggled .nav-menu {
+  display: block;
 }
 
-/* line 38, sass/partials/_media.scss */
-.site-main .gallery dd {
-  margin: 0;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_navigation\.scss}line{font-family:\00003105}}
+.main-navigation ul {
+  display: none;
 }
 
-/* Make sure embeds and iframes fit their containers */
-/* line 49, sass/partials/_media.scss */
-embed,
-iframe,
-object {
-  max-width: 100%;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_navigation\.scss}line{font-family:\00003110}}
+footer nav {
+  display: none;
 }
 
-/* =Navigation
------------------------------------------------ */
-/* line 4, sass/partials/_navigation.scss */
-.site-main [class*="navigation"] {
-  margin: 0 0 1.5em;
-  overflow: hidden;
-}
+@media screen and (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_navigation\.scss}line{font-family:\00003120}}
+  .menu-toggle,
+  .main-navigation.toggled .nav-menu {
+    display: none;
+  }
 
-/* line 8, sass/partials/_navigation.scss */
-[class*="navigation"] .nav-previous {
-  float: left;
-  width: 50%;
-}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_navigation\.scss}line{font-family:\00003125}}
+  .menu-sub-menu-container {
+    float: right;
+    clear: both;
+  }
 
-/* line 12, sass/partials/_navigation.scss */
-[class*="navigation"] .nav-next {
-  float: right;
-  text-align: right;
-  width: 50%;
-}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_navigation\.scss}line{font-family:\00003127}}
+  .main-navigation ul {
+    display: block;
+  }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_navigation\.scss}line{font-family:\00003132}}
+  .main-navigation li {
+    float: left;
+    position: relative;
+    width: 24%;
+    margin-right: 1%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_navigation\.scss}line{font-family:\00003138}}
+  .main-navigation li:last-child {
+    margin-right: 0;
+    width: 25%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_navigation\.scss}line{font-family:\00003142}}
+  .main-navigation li a {
+    width: auto;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_navigation\.scss}line{font-family:\00003147}}
+  footer nav {
+    display: block;
+    overflow: hidden;
+    clear: both;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_navigation\.scss}line{font-family:\00003148}}
+  footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_navigation\.scss}line{font-family:\00003150}}
+  footer nav.menu-footer-primary-container {
+    color: #5f5f61;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_navigation\.scss}line{font-family:\00003151}}
+  footer nav.menu-footer-primary-container li {
+    width: 25%;
+    float: left;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_navigation\.scss}line{font-family:\00003152}}
+  footer nav.menu-footer-primary-container li a {
+    color: inherit;
+    font-size: 18px;
+    width: 90%;
+    display: block;
+    padding-bottom: 10px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_navigation\.scss}line{font-family:\00003153}}
+  footer nav.menu-footer-primary-container li ul li {
+    width: auto;
+    float: none;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_navigation\.scss}line{font-family:\00003154}}
+  footer nav.menu-footer-primary-container li ul li a {
+    font-size: 12px;
+    padding-bottom: 2px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_navigation\.scss}line{font-family:\00003156}}
+  footer nav.menu-footer-primary-container li.membership-menu {
+    background-color: #b3191e;
+    color: white;
+    padding: 0 0 10px 0;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_navigation\.scss}line{font-family:\00003157}}
+  footer nav.menu-footer-primary-container li.membership-menu a {
+    padding: 10px 0 0 10px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_navigation\.scss}line{font-family:\00003159}}
+  footer nav.menu-footer-secondary-container {
+    text-align: right;
+    padding: 10px 0 20px 0;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_navigation\.scss}line{font-family:\00003160}}
+  footer nav.menu-footer-secondary-container li {
+    display: inline-block;
+    font-size: 12px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_navigation\.scss}line{font-family:\00003163}}
+  .delimiter {
+    float: right;
+    padding-left: 5px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_navigation\.scss}line{font-family:\00003164}}
+  .sub-menu .delimiter {
+    display: none;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_navigation\.scss}line{font-family:\00003165}}
+  .menu-footer-secondary-container li:last-child .delimiter {
+    display: none;
+  }
+}
+@media screen and (min-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_navigation\.scss}line{font-family:\00003171}}
+  .menu-sub-menu-container {
+    float: right;
+    clear: none;
+  }
+}
 /* =Comments
 ----------------------------------------------- */
-/* line 4, sass/partials/_comments.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_comments\.scss}line{font-family:\000034}}
 .comment-content a {
   word-wrap: break-word;
 }
 
 /* =Widgets
 ----------------------------------------------- */
-/* line 4, sass/partials/_widgets.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_widgets\.scss}line{font-family:\000034}}
 .widget {
   margin: 0 0 1.5em;
 }
 
 /* Make sure select elements fit in widgets */
-/* line 9, sass/partials/_widgets.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_widgets\.scss}line{font-family:\000039}}
 .widget select {
   max-width: 100%;
 }
 
 /* Search widget */
-/* line 14, sass/partials/_widgets.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_widgets\.scss}line{font-family:\0000314}}
 .widget_search .search-submit {
   display: none;
 }
@@ -759,7 +1081,7 @@ object {
 /* =Infinite Scroll
 ----------------------------------------------- */
 /* Globally hidden elements when Infinite Scroll is supported and in use. */
-/* line 6, sass/partials/_scroll.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_scroll\.scss}line{font-family:\000036}}
 .infinite-scroll .paging-navigation,
 .infinite-scroll.neverending .site-footer {
   /* Theme Footer (when set to scrolling) */
@@ -767,7 +1089,7 @@ object {
 }
 
 /* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before */
-/* line 11, sass/partials/_scroll.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/Sites\/giner\/dev\/eros\/wp-content\/themes\/eros\/sass\/partials\/_scroll\.scss}line{font-family:\0000311}}
 .infinity-end.neverending .site-footer {
   display: block;
 }

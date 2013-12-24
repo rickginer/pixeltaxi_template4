@@ -42,5 +42,5 @@ get_header(); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<?php get_sidebar(); ?>
+<?php if(!is_front_page()) get_sidebar(); ?>
 <?php get_footer(); ?>

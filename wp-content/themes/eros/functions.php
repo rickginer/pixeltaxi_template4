@@ -43,6 +43,9 @@ function eros_setup() {
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
 		'primary' => __( 'Primary Menu', 'eros' ),
+		'secondary' => __( 'Secondary Menu', 'eros' ),
+		'primary-footer' => __( 'Primary Footer', 'eros' ),
+		'secondary-footer' => __( 'Secondary Footer', 'eros' ),
 	) );
 
 	// Enable support for Post Formats.
@@ -112,3 +115,22 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+
+$args = array(
+	'width'         => 851,
+	'height'        => 231,
+	'default-image' => get_template_directory_uri() . '/images/header.png',
+	'uploads'       => true,
+);
+add_theme_support( 'custom-header', $args );
+
+
+
+add_filter('nav_menu_css_class' , 'special_nav_class' , 10 , 2);
+function special_nav_class($classes, $item){
+     if($item->title == "memberships"){ 
+             $classes[] = "membership-menu";
+     }
+     return $classes;
+}

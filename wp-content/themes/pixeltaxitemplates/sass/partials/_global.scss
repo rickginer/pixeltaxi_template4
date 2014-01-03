@@ -13,8 +13,7 @@ textarea {
 	line-height: 1.5;
 }
 
-body {
-	border-top:25px solid $brand-colour;}
+
 
 #page {
 	margin:0px auto; 
@@ -25,12 +24,7 @@ body {
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
 	clear: both;
-	text-transform:uppercase;
-	text-align:center;
 }
-.entry-content h1 {font-size:100%; margin-bottom:10px;}
-.entry-content h1:before {content:"- ";}
-.entry-content h1:after {content:" -";}
 h2 {font-size:100%; margin-bottom:10px;}
 h3 {font-size:100%; margin-bottom:10px;}
 
@@ -328,7 +322,7 @@ a:active {
 .search-form {text-align:center; margin:0 0 10px 20px;}
 .search-form input {vertical-align:top;}
 .header-banner {width:100%; margin-top:5px;}
-.site-branding {border-bottom:1px solid $dark-grey; margin-bottom:10px; padding-bottom:5px;}
+
 
 .entry-header {display:none;}
 
@@ -340,6 +334,9 @@ a:active {
 .entry-content form {padding-bottom:30px;}
 .entry-content form textarea, .entry-content form input {padding:5px 10px; margin:0 0 10px 0 !important; border-color:#000;}
 .entry-content form textarea:focus, .entry-content form input:focus {border-color:$brand-colour;}
+
+.site-info {font-size:80%;}
+
 
 @media screen and (min-width: 480px) {
 

@@ -35,18 +35,9 @@ ul#menu-sub-menu li a {color:#5f5f61; font-size:15px;}
 
 
 .menu-toggle {
-    color: #fff;
-    left: 0;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    text-align: center;
-    top: -25px;
-    height:25px;
-    line-height:25px;
-    width: 100%;
+padding:10px;
+  
 }
-
 .main-navigation.toggled .nav-menu {
 
 	border-bottom:1px solid $dark-grey;
@@ -85,7 +76,7 @@ nav.social-media h4 {display:none;}
 	.main-navigation {position:absolute; top:160px;}
 	.main-navigation ul {
 		display: block;
-		text-align:center;;
+		text-align:right;
 	}
 
 
@@ -94,7 +85,7 @@ nav.social-media h4 {display:none;}
 	}
 	.main-navigation li a, .main-navigation li a:hover {
 		width:auto;
-		padding:0 10px;
+		padding:0 0 0 20px;
 		border:none; 
 		background:none;
 		font-weight:bold;
@@ -125,6 +116,12 @@ nav.social-media h4 {display:none;}
 	nav.social-media h4 {display:block; font-weight:bold; margin-bottom:5px;}
 	nav.social-media {background-color:transparent;}
 	nav.social-media li {margin:0;}
+
+	nav#site-navigation {
+		position:absolute;
+		right:20px;
+		top:20px;
+	}
 
 }
 

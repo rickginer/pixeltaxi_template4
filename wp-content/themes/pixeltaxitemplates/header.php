@@ -22,7 +22,7 @@
 		a, 
 		.main-navigation li.current_page_item a,
 		.main-navigation li.current-menu-item a,
-		.main-navigation li:hover > a ,
+		.main-navigation li:hover > a 
 			{ color:<?php echo of_get_option("primary_color") ?>; }
 		body,
 		.entry-content form textarea:focus, 
@@ -33,7 +33,7 @@
 		button:hover,
 		input[type="button"]:hover,
 		input[type="reset"]:hover,
-		input[type="submit"]:hover
+		input[type="submit"]:hover,
 		button:focus,
 		input[type="button"]:focus,
 		input[type="reset"]:focus,

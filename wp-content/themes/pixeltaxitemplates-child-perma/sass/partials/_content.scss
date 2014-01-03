@@ -1,0 +1,15 @@
+/* =Content
+----------------------------------------------- */
+
+
+@media screen and (min-width: 768px) {
+	.hentry {
+		border-bottom:1px solid $grey;
+		overflow:hidden;
+		width:68%;
+		float:right;}
+
+	.page-content, .entry-content, .entry-summary {
+		max-width:900px;
+	}
+}

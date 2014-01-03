@@ -18,11 +18,10 @@
 <?php wp_head(); ?>
 
 <style type="text/css">
+
 	<?php if(of_get_option("primary_color")){ ?>
-		a, 
-		.main-navigation li.current_page_item a,
-		.main-navigation li.current-menu-item a,
-		.main-navigation li:hover > a 
+		a, 		
+		.main-navigation li> a 
 			{ color:<?php echo of_get_option("primary_color") ?>; }
 		body,
 		.entry-content form textarea:focus, 
@@ -46,10 +45,17 @@
 	<?php } ?>
 	<?php if(of_get_option("secondary_color")){ ?>
 		a:hover, 
-		a:active
+		a:active,
+		.main-navigation li.current_page_item a,
+		.main-navigation li.current-menu-item a,
+		.main-navigation li:hover > a 
 			{ color:<?php echo of_get_option("secondary_color") ?>; }
 		nav.social-media li a:hover 
 			{ background-color:<?php echo of_get_option("secondary_color") ?>; }
+	<?php } ?>
+	
+	<?php if(of_get_option("background_color")){ ?>
+		body { background-color:of_get_option("background_color")}
 	<?php } ?>
 
 	@media screen and (min-width: 768px) {

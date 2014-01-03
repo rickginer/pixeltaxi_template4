@@ -58,6 +58,8 @@
 		<?php } ?>
 
 		<div class="site-info">
+			
+			<p class="copyright">&copy; <?php bloginfo( 'name' ); ?>. All rights reserved. </p>
 
 			<?php echo 'Designed and built by <a href="http://giner.com.au/" rel="designer">Pixel Taxi</a>'; ?>
 		</div><!-- .site-info -->

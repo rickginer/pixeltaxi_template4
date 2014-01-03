@@ -1,15 +1,17 @@
 /*!
-Theme Name: Pixel Taxi Parent Theme
+Theme Name: Pixel Taxi - Perma
 Theme URI: http://pixeltaxi.com.au/
 Author: Rick Giner, Pixel Taxi
 Author URI: http://giner.com.au/
-Description: Pixel Taxi Wordpress Parent Theme
+Template: pixeltaxitemplates
+Description: Pixel Taxi Wordpress theme #3
 Version: 1.0
 License: GNU General Public License
 License URI: license.txt
 Tags:
 */
 
+@import url('../pixeltaxitemplates/style.css');
 
 @import "partials/_reset";
 @import "modules/_vars";

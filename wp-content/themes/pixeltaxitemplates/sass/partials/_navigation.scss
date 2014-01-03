@@ -101,17 +101,12 @@ ul#menu-sub-menu li a {color:#5f5f61; font-size:15px;}
 
 
 .menu-toggle {
-    color: #fff;
     display: block;
-    left: 0;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    text-align: center;
-    top: -25px;
-    height:25px;
-    line-height:25px;
-    width: 100%;
+    text-align:center; 
+    font-size:100%;
+    font-weight:normal;
+    text-transform:uppercase;
+    margin:0;
 }
 .main-navigation.toggled .nav-menu {
 	display:block;

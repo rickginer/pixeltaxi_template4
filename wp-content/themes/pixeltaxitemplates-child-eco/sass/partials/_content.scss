@@ -2,6 +2,10 @@
 ----------------------------------------------- */
 
 
+.entry-content h1:before {content:"- ";}
+.entry-content h1:after {content:" -";}
+.entry-content h1 {font-size:100%; margin-bottom:10px;}
+
 @media screen and (min-width: 768px) {
 	.hentry {
 		border-bottom:1px solid $dark-grey;

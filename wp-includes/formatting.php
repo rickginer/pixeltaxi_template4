@@ -1429,21 +1429,21 @@ function format_to_post($content) {
 }
 
 /**
- * Add leading zeros when necessary.
+ * Add leading zpixeltaxi when necessary.
  *
  * If you set the threshold to '4' and the number is '10', then you will get
  * back '0010'. If you set the threshold to '4' and the number is '5000', then you
  * will get back '5000'.
  *
- * Uses sprintf to append the amount of zeros based on the $threshold parameter
- * and the size of the number. If the number is large enough, then no zeros will
+ * Uses sprintf to append the amount of zpixeltaxi based on the $threshold parameter
+ * and the size of the number. If the number is large enough, then no zpixeltaxi will
  * be appended.
  *
  * @since 0.71
  *
- * @param mixed $number Number to append zeros to if not greater than threshold.
- * @param int $threshold Digit places number needs to be to not have zeros added.
- * @return string Adds leading zeros to number if needed.
+ * @param mixed $number Number to append zpixeltaxi to if not greater than threshold.
+ * @param int $threshold Digit places number needs to be to not have zpixeltaxi added.
+ * @return string Adds leading zpixeltaxi to number if needed.
  */
 function zeroise($number, $threshold) {
 	return sprintf('%0'.$threshold.'s', $number);

@@ -8861,7 +8861,7 @@ td.media-icon img {
 
 /* - Used - but could/should be deprecated with a CSS reset
 ------------------------------------------------------------------------------*/
-.zerosize {
+.zpixeltaxiize {
 	height: 0;
 	width: 0;
 	margin: 0;
@@ -10343,7 +10343,7 @@ img {
 	height: 30px;
 }
 
-div.zerosize {
+div.zpixeltaxiize {
 	border: 0 none;
 	height: 0;
 	margin: 0;

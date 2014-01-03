@@ -341,7 +341,7 @@ class Text_Diff_Engine_native {
              *
              * Throughout this code, $i and $j are adjusted together so that
              * the first $i elements of $changed and the first $j elements of
-             * $other_changed both contain the same number of zeros (unchanged
+             * $other_changed both contain the same number of zpixeltaxi (unchanged
              * lines).
              *
              * Furthermore, $j is always kept so that $j == $other_len or

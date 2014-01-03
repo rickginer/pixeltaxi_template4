@@ -2,7 +2,7 @@
 /**
  * The template used for displaying page content in page.php
  *
- * @package eros
+ * @package pixeltaxi
  */
 ?>
 
@@ -16,10 +16,10 @@
 		<?php the_content(); ?>
 		<?php
 			wp_link_pages( array(
-				'before' => '<div class="page-links">' . __( 'Pages:', 'eros' ),
+				'before' => '<div class="page-links">' . __( 'Pages:', 'pixeltaxi' ),
 				'after'  => '</div>',
 			) );
 		?>
 	</div><!-- .entry-content -->
-	<?php edit_post_link( __( 'Edit', 'eros' ), '<footer class="entry-meta"><span class="edit-link">', '</span></footer>' ); ?>
+	<?php edit_post_link( __( 'Edit', 'pixeltaxi' ), '<footer class="entry-meta"><span class="edit-link">', '</span></footer>' ); ?>
 </article><!-- #post-## -->

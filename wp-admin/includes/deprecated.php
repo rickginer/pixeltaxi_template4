@@ -275,10 +275,10 @@ function get_editable_authors( $user_id ) {
  * @deprecated 3.1.0
  *
  * @param int $user_id User ID.
- * @param bool $exclude_zeros Optional, default is true. Whether to exclude zeros.
+ * @param bool $exclude_zpixeltaxi Optional, default is true. Whether to exclude zpixeltaxi.
  * @return unknown
  */
-function get_editable_user_ids( $user_id, $exclude_zeros = true, $post_type = 'post' ) {
+function get_editable_user_ids( $user_id, $exclude_zpixeltaxi = true, $post_type = 'post' ) {
 	_deprecated_function( __FUNCTION__, '3.1', 'get_users()' );
 
 	global $wpdb;
@@ -288,7 +288,7 @@ function get_editable_user_ids( $user_id, $exclude_zeros = true, $post_type = 'p
 	$post_type_obj = get_post_type_object($post_type);
 
 	if ( ! $user->has_cap($post_type_obj->cap->edit_others_posts) ) {
-		if ( $user->has_cap($post_type_obj->cap->edit_posts) || ! $exclude_zeros )
+		if ( $user->has_cap($post_type_obj->cap->edit_posts) || ! $exclude_zpixeltaxi )
 			return array($user->ID);
 		else
 			return array();
@@ -300,7 +300,7 @@ function get_editable_user_ids( $user_id, $exclude_zeros = true, $post_type = 'p
 		$level_key = $wpdb->get_blog_prefix() . 'capabilities'; // wpmu site admins don't have user_levels
 
 	$query = $wpdb->prepare("SELECT user_id FROM $wpdb->usermeta WHERE meta_key = %s", $level_key);
-	if ( $exclude_zeros )
+	if ( $exclude_zpixeltaxi )
 		$query .= " AND meta_value != '0'";
 
 	return $wpdb->get_col( $query );

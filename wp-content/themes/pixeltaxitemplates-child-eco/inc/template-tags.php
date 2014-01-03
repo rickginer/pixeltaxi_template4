@@ -4,31 +4,31 @@
  *
  * Eventually, some of the functionality here could be replaced by core features.
  *
- * @package eros
+ * @package pixeltaxi
  */
 
-if ( ! function_exists( 'eros_paging_nav' ) ) :
+if ( ! function_exists( 'pixeltaxi_paging_nav' ) ) :
 /**
  * Display navigation to next/previous set of posts when applicable.
  *
  * @return void
  */
-function eros_paging_nav() {
+function pixeltaxi_paging_nav() {
 	// Don't print empty markup if there's only one page.
 	if ( $GLOBALS['wp_query']->max_num_pages < 2 ) {
 		return;
 	}
 	?>
 	<nav class="navigation paging-navigation" role="navigation">
-		<h1 class="screen-reader-text"><?php _e( 'Posts navigation', 'eros' ); ?></h1>
+		<h1 class="screen-reader-text"><?php _e( 'Posts navigation', 'pixeltaxi' ); ?></h1>
 		<div class="nav-links">
 
 			<?php if ( get_next_posts_link() ) : ?>
-			<div class="nav-previous"><?php next_posts_link( __( '<span class="meta-nav">&larr;</span> Older posts', 'eros' ) ); ?></div>
+			<div class="nav-previous"><?php next_posts_link( __( '<span class="meta-nav">&larr;</span> Older posts', 'pixeltaxi' ) ); ?></div>
 			<?php endif; ?>
 
 			<?php if ( get_previous_posts_link() ) : ?>
-			<div class="nav-next"><?php previous_posts_link( __( 'Newer posts <span class="meta-nav">&rarr;</span>', 'eros' ) ); ?></div>
+			<div class="nav-next"><?php previous_posts_link( __( 'Newer posts <span class="meta-nav">&rarr;</span>', 'pixeltaxi' ) ); ?></div>
 			<?php endif; ?>
 
 		</div><!-- .nav-links -->
@@ -37,13 +37,13 @@ function eros_paging_nav() {
 }
 endif;
 
-if ( ! function_exists( 'eros_post_nav' ) ) :
+if ( ! function_exists( 'pixeltaxi_post_nav' ) ) :
 /**
  * Display navigation to next/previous post when applicable.
  *
  * @return void
  */
-function eros_post_nav() {
+function pixeltaxi_post_nav() {
 	// Don't print empty markup if there's nowhere to navigate.
 	$previous = ( is_attachment() ) ? get_post( get_post()->post_parent ) : get_adjacent_post( false, '', true );
 	$next     = get_adjacent_post( false, '', false );
@@ -53,11 +53,11 @@ function eros_post_nav() {
 	}
 	?>
 	<nav class="navigation post-navigation" role="navigation">
-		<h1 class="screen-reader-text"><?php _e( 'Post navigation', 'eros' ); ?></h1>
+		<h1 class="screen-reader-text"><?php _e( 'Post navigation', 'pixeltaxi' ); ?></h1>
 		<div class="nav-links">
 
-			<?php previous_post_link( '%link', _x( '<span class="meta-nav">&larr;</span> %title', 'Previous post link', 'eros' ) ); ?>
-			<?php next_post_link(     '%link', _x( '%title <span class="meta-nav">&rarr;</span>', 'Next post link',     'eros' ) ); ?>
+			<?php previous_post_link( '%link', _x( '<span class="meta-nav">&larr;</span> %title', 'Previous post link', 'pixeltaxi' ) ); ?>
+			<?php next_post_link(     '%link', _x( '%title <span class="meta-nav">&rarr;</span>', 'Next post link',     'pixeltaxi' ) ); ?>
 
 		</div><!-- .nav-links -->
 	</nav><!-- .navigation -->
@@ -65,20 +65,20 @@ function eros_post_nav() {
 }
 endif;
 
-if ( ! function_exists( 'eros_comment' ) ) :
+if ( ! function_exists( 'pixeltaxi_comment' ) ) :
 /**
  * Template for comments and pingbacks.
  *
  * Used as a callback by wp_list_comments() for displaying the comments.
  */
-function eros_comment( $comment, $args, $depth ) {
+function pixeltaxi_comment( $comment, $args, $depth ) {
 	$GLOBALS['comment'] = $comment;
 
 	if ( 'pingback' == $comment->comment_type || 'trackback' == $comment->comment_type ) : ?>
 
 	<li id="comment-<?php comment_ID(); ?>" <?php comment_class(); ?>>
 		<div class="comment-body">
-			<?php _e( 'Pingback:', 'eros' ); ?> <?php comment_author_link(); ?> <?php edit_comment_link( __( 'Edit', 'eros' ), '<span class="edit-link">', '</span>' ); ?>
+			<?php _e( 'Pingback:', 'pixeltaxi' ); ?> <?php comment_author_link(); ?> <?php edit_comment_link( __( 'Edit', 'pixeltaxi' ), '<span class="edit-link">', '</span>' ); ?>
 		</div>
 
 	<?php else : ?>
@@ -88,20 +88,20 @@ function eros_comment( $comment, $args, $depth ) {
 			<footer class="comment-meta">
 				<div class="comment-author vcard">
 					<?php if ( 0 != $args['avatar_size'] ) { echo get_avatar( $comment, $args['avatar_size'] ); } ?>
-					<?php printf( __( '%s <span class="says">says:</span>', 'eros' ), sprintf( '<cite class="fn">%s</cite>', get_comment_author_link() ) ); ?>
+					<?php printf( __( '%s <span class="says">says:</span>', 'pixeltaxi' ), sprintf( '<cite class="fn">%s</cite>', get_comment_author_link() ) ); ?>
 				</div><!-- .comment-author -->
 
 				<div class="comment-metadata">
 					<a href="<?php echo esc_url( get_comment_link( $comment->comment_ID ) ); ?>">
 						<time datetime="<?php comment_time( 'c' ); ?>">
-							<?php printf( _x( '%1$s at %2$s', '1: date, 2: time', 'eros' ), get_comment_date(), get_comment_time() ); ?>
+							<?php printf( _x( '%1$s at %2$s', '1: date, 2: time', 'pixeltaxi' ), get_comment_date(), get_comment_time() ); ?>
 						</time>
 					</a>
-					<?php edit_comment_link( __( 'Edit', 'eros' ), '<span class="edit-link">', '</span>' ); ?>
+					<?php edit_comment_link( __( 'Edit', 'pixeltaxi' ), '<span class="edit-link">', '</span>' ); ?>
 				</div><!-- .comment-metadata -->
 
 				<?php if ( '0' == $comment->comment_approved ) : ?>
-				<p class="comment-awaiting-moderation"><?php _e( 'Your comment is awaiting moderation.', 'eros' ); ?></p>
+				<p class="comment-awaiting-moderation"><?php _e( 'Your comment is awaiting moderation.', 'pixeltaxi' ); ?></p>
 				<?php endif; ?>
 			</footer><!-- .comment-meta -->
 
@@ -123,13 +123,13 @@ function eros_comment( $comment, $args, $depth ) {
 	<?php
 	endif;
 }
-endif; // ends check for eros_comment()
+endif; // ends check for pixeltaxi_comment()
 
-if ( ! function_exists( 'eros_posted_on' ) ) :
+if ( ! function_exists( 'pixeltaxi_posted_on' ) ) :
 /**
  * Prints HTML with meta information for the current post-date/time and author.
  */
-function eros_posted_on() {
+function pixeltaxi_posted_on() {
 	$time_string = '<time class="entry-date published" datetime="%1$s">%2$s</time>';
 	if ( get_the_time( 'U' ) !== get_the_modified_time( 'U' ) ) {
 		$time_string .= '<time class="updated" datetime="%3$s">%4$s</time>';
@@ -142,7 +142,7 @@ function eros_posted_on() {
 		esc_html( get_the_modified_date() )
 	);
 
-	printf( __( '<span class="posted-on">Posted on %1$s</span><span class="byline"> by %2$s</span>', 'eros' ),
+	printf( __( '<span class="posted-on">Posted on %1$s</span><span class="byline"> by %2$s</span>', 'pixeltaxi' ),
 		sprintf( '<a href="%1$s" rel="bookmark">%2$s</a>',
 			esc_url( get_permalink() ),
 			$time_string
@@ -158,7 +158,7 @@ endif;
 /**
  * Returns true if a blog has more than 1 category.
  */
-function eros_categorized_blog() {
+function pixeltaxi_categorized_blog() {
 	if ( false === ( $all_the_cool_cats = get_transient( 'all_the_cool_cats' ) ) ) {
 		// Create an array of all the categories that are attached to posts.
 		$all_the_cool_cats = get_categories( array(
@@ -172,20 +172,20 @@ function eros_categorized_blog() {
 	}
 
 	if ( '1' != $all_the_cool_cats ) {
-		// This blog has more than 1 category so eros_categorized_blog should return true.
+		// This blog has more than 1 category so pixeltaxi_categorized_blog should return true.
 		return true;
 	} else {
-		// This blog has only 1 category so eros_categorized_blog should return false.
+		// This blog has only 1 category so pixeltaxi_categorized_blog should return false.
 		return false;
 	}
 }
 
 /**
- * Flush out the transients used in eros_categorized_blog.
+ * Flush out the transients used in pixeltaxi_categorized_blog.
  */
-function eros_category_transient_flusher() {
+function pixeltaxi_category_transient_flusher() {
 	// Like, beat it. Dig?
 	delete_transient( 'all_the_cool_cats' );
 }
-add_action( 'edit_category', 'eros_category_transient_flusher' );
-add_action( 'save_post',     'eros_category_transient_flusher' );
+add_action( 'edit_category', 'pixeltaxi_category_transient_flusher' );
+add_action( 'save_post',     'pixeltaxi_category_transient_flusher' );

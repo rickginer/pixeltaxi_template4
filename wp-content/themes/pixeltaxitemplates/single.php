@@ -2,7 +2,7 @@
 /**
  * The Template for displaying all single posts.
  *
- * @package eros
+ * @package pixeltaxi
  */
 
 get_header(); ?>
@@ -14,7 +14,7 @@ get_header(); ?>
 
 			<?php get_template_part( 'content', 'single' ); ?>
 
-			<?php eros_post_nav(); ?>
+			<?php pixeltaxi_post_nav(); ?>
 
 			<?php
 				// If comments are open or we have at least one comment, load up the comment template

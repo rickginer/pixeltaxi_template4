@@ -150,10 +150,10 @@ class SimplePie_Net_IPv6
 		$ip = self::uncompress($ip);
 		$ip_parts = self::split_v6_v4($ip);
 
-		// Replace all leading zeros
+		// Replace all leading zpixeltaxi
 		$ip_parts[0] = preg_replace('/(^|:)0+([0-9])/', '\1\2', $ip_parts[0]);
 
-		// Find bunches of zeros
+		// Find bunches of zpixeltaxi
 		if (preg_match_all('/(?:^|:)(?:0(?::|$))+/', $ip_parts[0], $matches, PREG_OFFSET_CAPTURE))
 		{
 			$max = 0;
@@ -233,7 +233,7 @@ class SimplePie_Net_IPv6
 				if (strlen($ipv6_part) > 4)
 					return false;
 
-				// Remove leading zeros (this is safe because of the above)
+				// Remove leading zpixeltaxi (this is safe because of the above)
 				$ipv6_part = ltrim($ipv6_part, '0');
 				if ($ipv6_part === '')
 					$ipv6_part = '0';

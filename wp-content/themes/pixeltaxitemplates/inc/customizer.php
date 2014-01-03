@@ -1,8 +1,8 @@
 <?php
 /**
- * eros Theme Customizer
+ * pixeltaxi Theme Customizer
  *
- * @package eros
+ * @package pixeltaxi
  */
 
 /**
@@ -10,17 +10,17 @@
  *
  * @param WP_Customize_Manager $wp_customize Theme Customizer object.
  */
-function eros_customize_register( $wp_customize ) {
+function pixeltaxi_customize_register( $wp_customize ) {
 	$wp_customize->get_setting( 'blogname' )->transport         = 'postMessage';
 	$wp_customize->get_setting( 'blogdescription' )->transport  = 'postMessage';
 	$wp_customize->get_setting( 'header_textcolor' )->transport = 'postMessage';
 }
-add_action( 'customize_register', 'eros_customize_register' );
+add_action( 'customize_register', 'pixeltaxi_customize_register' );
 
 /**
  * Binds JS handlers to make Theme Customizer preview reload changes asynchronously.
  */
-function eros_customize_preview_js() {
-	wp_enqueue_script( 'eros_customizer', get_template_directory_uri() . '/js/customizer.js', array( 'customize-preview' ), '20130508', true );
+function pixeltaxi_customize_preview_js() {
+	wp_enqueue_script( 'pixeltaxi_customizer', get_template_directory_uri() . '/js/customizer.js', array( 'customize-preview' ), '20130508', true );
 }
-add_action( 'customize_preview_init', 'eros_customize_preview_js' );
+add_action( 'customize_preview_init', 'pixeltaxi_customize_preview_js' );

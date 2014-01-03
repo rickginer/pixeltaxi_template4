@@ -3,17 +3,17 @@
  * Jetpack Compatibility File
  * See: http://jetpack.me/
  *
- * @package eros
+ * @package pixeltaxi
  */
 
 /**
  * Add theme support for Infinite Scroll.
  * See: http://jetpack.me/support/infinite-scroll/
  */
-function eros_jetpack_setup() {
+function pixeltaxi_jetpack_setup() {
 	add_theme_support( 'infinite-scroll', array(
 		'container' => 'main',
 		'footer'    => 'page',
 	) );
 }
-add_action( 'after_setup_theme', 'eros_jetpack_setup' );
+add_action( 'after_setup_theme', 'pixeltaxi_jetpack_setup' );

@@ -59,7 +59,7 @@ function optionsframework_options() {
 		'name' => __('Header image display', 'options_check'),
 		'desc' => __('Show header image on Front page only', 'options_check'),
 		'id' => 'frontpageheaderonly',
-		'std' => '1',
+		'std' => '0',
 		'type' => 'checkbox'); 
 
 

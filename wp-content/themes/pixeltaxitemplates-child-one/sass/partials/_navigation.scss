@@ -1,0 +1,264 @@
+/* =Navigation
+----------------------------------------------- */
+
+
+
+/* =Menu
+----------------------------------------------- */
+
+
+.main-navigation a {
+	color: $dark-grey;
+	@include rounded(3px);
+	@include linear-gradient(#fbfbfb, #e7e7e7);
+	border:1px solid #ededed;
+	border-bottom:1px solid #fff; 
+}
+.main-navigation a:hover {
+	@include linear-gradient(#e7e7e7, #fbfbfb);
+	border-bottom:1px solid #ededed;
+}
+.main-navigation ul ul {
+	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+.main-navigation li:hover > a {
+	color:$brand-colour;
+}
+.main-navigation li.current_page_item a,
+.main-navigation li.current-menu-item a {
+	color:$brand-colour;
+}
+
+ul#menu-sub-menu li a {color:#5f5f61; font-size:15px;}
+
+
+
+
+.menu-toggle {
+    color: #fff;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    top: -25px;
+    height:25px;
+    line-height:25px;
+    width: 100%;
+}
+
+.main-navigation.toggled .nav-menu {
+
+	border-bottom:1px solid $dark-grey;
+}
+
+.main-navigation ul {
+	display: none;
+}
+
+nav.social-media {display:inline-block; width:100%; text-align:center; background-color:$brand-colour; margin-bottom:10px;}
+nav.social-media ul {display:inline; margin:0; padding:0;}
+nav.social-media li {display:inline-block; margin-left:0px;}
+nav.social-media li a {display:block; width:42px; height:42px; line-height:42px; text-indent:-999em; background-image:url("social.png"); background-size:462px auto; background-color:$brand-colour;}
+// Brand colour background
+/*
+Add to header.php : 
+nav.social-media li a,
+		nav.social-media { background-color:<?php echo of_get_option("primary_color") ?>; }
+
+*/
+nav.social-media, nav.social-media li a {background-color:$brand-colour; }
+nav.social-media li a:hover {background-color:$brand-colour-secondary;}
+nav.social-media li.social-facebook a {background-position:0px 0px}
+nav.social-media li.social-twitter a {background-position:126px 0px}
+nav.social-media li.social-gplus a {background-position:336px 0px}
+nav.social-media li.social-youtube a {background-position:42px 0px}
+nav.social-media li.social-linkedin a {background-position:294px 0px}
+// White background, grey icons
+nav.social-media, nav.social-media li a {background-color:transparent; }
+nav.social-media li.social-facebook a {background-position:0px -42px}
+nav.social-media li.social-twitter a {background-position:126px -42px}
+nav.social-media li.social-gplus a {background-position:336px -42px}
+nav.social-media li.social-youtube a {background-position:42px -42px}
+nav.social-media li.social-linkedin a {background-position:294px -42px}
+nav.social-media li.social-facebook a:hover {background-position:0px 0px}
+nav.social-media li.social-twitter a:hover {background-position:126px 0px}
+nav.social-media li.social-gplus a:hover {background-position:336px 0px}
+nav.social-media li.social-youtube a:hover {background-position:42px 0px}
+nav.social-media li.social-linkedin a:hover {background-position:294px 0px}
+// White background social-media coloured background
+nav.social-media, nav.social-media li a {background-color:transparent; }
+nav.social-media li.social-facebook a {background-position:0px -85px}
+nav.social-media li.social-twitter a {background-position:126px -85px}
+nav.social-media li.social-gplus a {background-position:336px -85px}
+nav.social-media li.social-youtube a {background-position:42px -85px}
+nav.social-media li.social-linkedin a {background-position:294px -85px}
+nav.social-media li.social-facebook a:hover {background-position:0px 0px}
+nav.social-media li.social-twitter a:hover {background-position:126px 0px}
+nav.social-media li.social-gplus a:hover {background-position:336px 0px}
+nav.social-media li.social-youtube a:hover {background-position:42px 0px}
+nav.social-media li.social-linkedin a:hover {background-position:294px 0px}
+
+
+.social-white nav.social-media, .social-white nav.social-media li a {background-color:$brand-colour; }
+.social-white nav.social-media li a:hover {background-color:$brand-colour-secondary;}
+.social-white nav.social-media li.social-facebook a {background-position:0px 0px}
+.social-white nav.social-media li.social-twitter a {background-position:126px 0px}
+.social-white nav.social-media li.social-gplus a {background-position:336px 0px}
+.social-white nav.social-media li.social-youtube a {background-position:42px 0px}
+.social-white nav.social-media li.social-linkedin a {background-position:294px 0px}
+.social-white nav.social-media li.social-facebook a:hover {background-position:0px 0px}
+.social-white nav.social-media li.social-twitter a:hover {background-position:126px 0px}
+.social-white nav.social-media li.social-gplus a:hover {background-position:336px 0px}
+.social-white nav.social-media li.social-youtube a:hover {background-position:42px 0px}
+.social-white nav.social-media li.social-linkedin a:hover {background-position:294px 0px}
+// White background, grey icons
+.social-grey nav.social-media, .social-grey nav.social-media li a {background-color:transparent; }
+.social-grey nav.social-media li.social-facebook a {background-position:0px -42px}
+.social-grey nav.social-media li.social-twitter a {background-position:126px -42px}
+.social-grey nav.social-media li.social-gplus a {background-position:336px -42px}
+.social-grey nav.social-media li.social-youtube a {background-position:42px -42px}
+.social-grey nav.social-media li.social-linkedin a {background-position:294px -42px}
+.social-grey nav.social-media li.social-facebook a:hover {background-position:0px 0px}
+.social-grey nav.social-media li.social-twitter a:hover {background-position:126px 0px}
+.social-grey nav.social-media li.social-gplus a:hover {background-position:336px 0px}
+.social-grey nav.social-media li.social-youtube a:hover {background-position:42px 0px}
+.social-grey nav.social-media li.social-linkedin a:hover {background-position:294px 0px}
+// White background social-media coloured background
+.social-default nav.social-media, .social-default nav.social-media li a {background-color:transparent; }
+.social-default nav.social-media li.social-facebook a {background-position:0px -85px}
+.social-default nav.social-media li.social-twitter a {background-position:126px -85px}
+.social-default nav.social-media li.social-gplus a {background-position:336px -85px}
+.social-default nav.social-media li.social-youtube a {background-position:42px -85px}
+.social-default nav.social-media li.social-linkedin a {background-position:294px -85px}
+.social-default nav.social-media li.social-facebook a:hover {background-position:0px 0px}
+.social-default nav.social-media li.social-twitter a:hover {background-position:126px 0px}
+.social-default nav.social-media li.social-gplus a:hover {background-position:336px 0px}
+.social-default nav.social-media li.social-youtube a:hover {background-position:42px 0px}
+.social-default nav.social-media li.social-linkedin a:hover {background-position:294px 0px}
+
+
+
+nav.social-media h4 {display:none;}
+header nav.social-media {margin-top:15px;}
+
+
+@media screen and (min-width: 480px) {
+
+
+}
+
+@media screen and (min-width: 768px) {
+
+	.menu-toggle {
+		display: none;
+	}
+
+	.menu-sub-menu-container {float:right; clear:both;}
+
+	.main-navigation {
+		position:absolute; 
+		top:240px; 
+		text-align:center;
+	}
+	.nav-align-center .main-navigation {
+		text-align:center;
+	}
+
+	header nav.social-media {
+		position:absolute;
+		top:20px;
+		right:20px;
+		margin-top:0;
+		width:auto;
+	}
+	.nav-align-left {
+		.main-navigation {
+			text-align:left;
+			.menu {
+				padding-left:0;
+				li a {
+					padding-left:0; padding-right:20px;
+				}
+			}
+		}
+		.site-branding {
+			border-bottom:none;
+		}
+		nav.social-media {
+			text-align:left;
+		}
+		header nav.social-media {
+			float:right;
+			margin-top:210px;
+		}
+
+	}
+
+	.main-navigation ul {
+		display: block;
+		text-align:center;;
+	}
+	.main-navigation .menu {
+		display:inline-block;
+		width:auto;
+		margin:0 auto;
+		background:white;
+		padding:0 20px;
+	}
+
+
+	.main-navigation li {
+		display:inline-block;
+	}
+	.main-navigation li a, .main-navigation li a:hover {
+		width:auto;
+		padding:0 10px;
+		border:none; 
+		background:none;
+		font-weight:bold;
+	}
+
+
+	footer nav {display:block; overflow:hidden; clear:both;}
+	footer nav ul {list-style:none; padding:0; margin:0}
+
+	footer nav.menu-footer-primary-container { color:$grey;}
+	footer nav.menu-footer-primary-container li {width:25%; float:left;}
+	footer nav.menu-footer-primary-container li a {color:inherit; font-size:18px; width:90%; display:block; padding-bottom:10px;}
+	footer nav.menu-footer-primary-container li ul li {width:auto; float:none;}
+	footer nav.menu-footer-primary-container li ul li a {font-size:12px; padding-bottom:2px;}
+
+	footer nav.menu-footer-primary-container li.membership-menu {background-color:$brand-colour; color:white; padding:0 0 10px 0}
+	footer nav.menu-footer-primary-container li.membership-menu a {padding:10px 0 0 10px;}
+
+	footer nav.menu-footer-secondary-container {text-align:right; padding:10px 0 20px 0}
+	footer nav.menu-footer-secondary-container li {display:inline-block;font-size:12px;}
+	footer nav.menu-footer-secondary-container li a {}
+
+	.delimiter {float: right;padding-left: 5px;}
+	.sub-menu .delimiter {display: none;}
+	.menu-footer-secondary-container li:last-child .delimiter {display: none;}
+
+	
+
+}
+
+@media screen and (min-width: 1024px) {
+
+	.menu-sub-menu-container {float:right; clear:none;} 
+
+}
+
+@media screen and (min-width: 1280px) {
+
+
+}
+
+
+
+
+
+
+
+

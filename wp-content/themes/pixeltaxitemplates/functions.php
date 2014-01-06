@@ -136,3 +136,12 @@ function special_nav_class($classes, $item){
      return $classes;
 }
 
+// THIS GIVES US SOME OPTIONS FOR STYLING THE ADMIN AREA
+function custom_css() {
+   echo '<style type="text/css">
+           #optionsframework .section.section-text.wide input {width:380px;}
+         </style>';
+}
+
+add_action('admin_head', 'custom_css');
+

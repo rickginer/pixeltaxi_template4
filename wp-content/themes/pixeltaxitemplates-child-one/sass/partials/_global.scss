@@ -1,0 +1,131 @@
+/* =Global
+----------------------------------------------- */
+
+body,
+button,
+input,
+select,
+textarea {
+	color: $dark-grey;
+	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-size: 1.6rem;
+	line-height: 1.5;
+}
+
+body {
+	border-top:25px solid $brand-colour;}
+
+#page {
+
+	max-width:$maxwidth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-transform:uppercase;
+	text-align:center;
+}
+
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	color: white;
+	background-color:black;
+}
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+	background-color:$brand-colour;
+}
+button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus,
+button:active,
+input[type="button"]:active,
+input[type="reset"]:active,
+input[type="submit"]:active {
+	background-color:$brand-colour;
+}
+
+
+/* Links */
+a {
+	color: $brand-colour;
+}
+a:visited {
+	color: $brand-colour;
+}
+a:hover,
+a:focus,
+a:active {
+	color: $brand-colour-secondary;
+}
+
+.site-branding {border-bottom:1px solid $dark-grey; }
+
+
+.site-info {max-width:$maxwidth;}
+
+.entry-content form textarea:focus, .entry-content form input:focus {border-color:$brand-colour;}
+
+.social-location-top .logo img {padding-bottom:10px;}
+
+
+
+@media screen and (min-width: 480px) {
+
+}
+
+
+@media screen and (min-width: 768px) {
+
+	footer { max-width:$maxwidth; }
+
+	body {border-top:none;}
+
+	.logo img, .logo h1 {height:200px;}
+
+	.nav-align-left .site-branding {float:left;}
+	.nav-align-center .site-branding .logo {text-align:center}
+	.nav-align-left .site-branding .logo {text-align:left}
+
+
+}
+
+@media screen and (min-width: 1024px) {
+
+
+}
+
+@media screen and (min-width: 1280px) {
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -14,6 +14,7 @@ textarea {
 }
 
 body {
+	border-top:25px solid $brand-colour;
 	background-color:$light-grey;}
 
 #page {
@@ -100,6 +101,8 @@ a:active {
 	}
 
 	header {margin-top:40px; background-color:white; text-align:right;}
+
+	body {border-top:none;}
 
 	.site-branding{
 		display:inline-block;

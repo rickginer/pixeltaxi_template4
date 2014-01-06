@@ -100,6 +100,7 @@ function optionsframework_options() {
 		'desc' => __('Enter your Google+ page URL', 'options_check'),
 		'id' => 'social_gplus',
 		'std' => 'https://plus.google.com/',
+		'class' => 'wide',
 		'type' => 'text');
 
 	$options[] = array(
@@ -107,6 +108,7 @@ function optionsframework_options() {
 		'desc' => __('Enter your Twitter page URL', 'options_check'),
 		'id' => 'social_twitter',
 		'std' => 'https://twitter.com/',
+		'class' => 'wide',
 		'type' => 'text');
 
 	$options[] = array(
@@ -114,6 +116,7 @@ function optionsframework_options() {
 		'desc' => __('Enter your LinkedIn page URL', 'options_check'),
 		'id' => 'social_linkedin',
 		'std' => 'http://www.linkedin.com/',
+		'class' => 'wide',
 		'type' => 'text');
 
 	$options[] = array(
@@ -121,6 +124,7 @@ function optionsframework_options() {
 		'desc' => __('Enter your YouTube page URL', 'options_check'),
 		'id' => 'social_youtube',
 		'std' => 'http://www.youtube.com/',
+		'class' => 'wide',
 		'type' => 'text');
 
 

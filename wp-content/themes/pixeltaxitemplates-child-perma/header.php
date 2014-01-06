@@ -21,6 +21,7 @@
 
 	<?php if(of_get_option("primary_color")){ ?>
 		a, 		
+		a:visited,
 		.main-navigation li> a 
 			{ color:<?php echo of_get_option("primary_color") ?>; }
 		body,
@@ -64,7 +65,7 @@
 
 </style>
 
-<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
 
 </head>
 

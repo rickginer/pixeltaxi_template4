@@ -20,7 +20,6 @@
 <style type="text/css">
 	<?php if(of_get_option("primary_color")){ ?>
 		a, 
-		a:visited,
 		.main-navigation li.current_page_item a,
 		.main-navigation li.current-menu-item a,
 		.main-navigation li:hover > a 

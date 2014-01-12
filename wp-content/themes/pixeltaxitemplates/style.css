@@ -438,12 +438,7 @@ a {
   text-decoration: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003228}}
-a:visited {
-  color: #81c178;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003233}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003230}}
 a:hover,
 a:focus,
 a:active {
@@ -452,21 +447,21 @@ a:active {
 }
 
 /* Alignment */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003239}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003236}}
 .alignleft {
   display: inline;
   float: left;
   margin-right: 1.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003244}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003241}}
 .alignright {
   display: inline;
   float: right;
   margin-left: 1.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003249}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003246}}
 .aligncenter {
   clear: both;
   display: block;
@@ -474,13 +469,13 @@ a:active {
 }
 
 /* Text meant only for screen readers */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003256}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003253}}
 .screen-reader-text {
   clip: rect(1px, 1px, 1px, 1px);
   position: absolute !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003263}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003260}}
 .screen-reader-text:hover,
 .screen-reader-text:active,
 .screen-reader-text:focus {
@@ -504,7 +499,7 @@ a:active {
 }
 
 /* Clearing */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003294}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003291}}
 .clear:before,
 .clear:after,
 .entry-content:before,
@@ -521,7 +516,7 @@ a:active {
   display: table;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003304}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003301}}
 .clear:after,
 .entry-content:after,
 .comment-content:after,
@@ -531,19 +526,19 @@ a:active {
   clear: both;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003309}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003306}}
 #page {
   position: relative;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003308}}
 .site-branding .logo {
   margin: 0 auto;
   display: block;
   text-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003311}}
 #wplb_wrap {
   float: none !important;
   margin: 0 auto;
@@ -551,18 +546,18 @@ a:active {
   text-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003312}}
 #loginform {
   float: none;
   text-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003313}}
 #loginform * {
   float: none !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003314}}
 #wplb_wrap .wplb_field, .search-field {
   vertical-align: top;
   border-radius: 20px;
@@ -571,101 +566,101 @@ a:active {
   font-size: 12px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003315}}
 .wplb_link {
   text-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003319}}
 .search-form {
   text-align: center;
   margin: 0 0 10px 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003320}}
 .search-form input {
   vertical-align: top;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003321}}
 .header-banner {
   width: 100%;
   margin-top: 5px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003324}}
 .entry-header {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003326}}
 .logo img, .logo h1 {
   height: 100px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003327}}
 .logo h1 {
   line-height: 100px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003329}}
 .site-info {
   padding: 0 10px 0px 10px;
   margin: 0 auto;
   max-width: 1200px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003331}}
 .entry-content form {
   padding-bottom: 30px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003332}}
 .entry-content form textarea, .entry-content form input {
   padding: 5px 10px;
   margin: 0 0 10px 0 !important;
   border-color: #000;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003333}}
 .entry-content form textarea:focus, .entry-content form input:focus {
   border-color: #81c178;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003335}}
 .site-info {
   font-size: 80%;
 }
 
 @media screen and (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003345}}
   #page {
     padding: 20px 20px 0 20px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003346}}
   .site-branding {
     border-width: 0 0 2px 0;
     padding-bottom: 25px;
     margin-bottom: 40px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003348}}
   #wplb_wrap {
     float: right !important;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003349}}
   #loginform {
     text-align: right;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003350}}
   .search-form {
     float: right;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003352}}
   footer {
     max-width: 1200px;
     margin: 0 auto;
@@ -673,25 +668,25 @@ a:active {
     padding: 0 20px 20px 20px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003353}}
   .site-info {
     margin-top: 50px;
     padding: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003355}}
   .entry-content form {
     width: 500px;
     margin: 0 auto;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003356}}
   #cntctfrm_contact_form input.text, #cntctfrm_contact_form textarea, #cntctfrm_contact_message, #cntctfrm_contact_name, #cntctfrm_contact_email, #cntctfrm_contact_subject {
     width: 100%;
   }
 }
 @media screen and (min-width: 1024px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_global\.scss}line{font-family:\00003367}}
   #wplb_wrap {
     margin-bottom: 12px;
   }
@@ -1068,6 +1063,7 @@ footer nav {
   .main-navigation {
     position: absolute;
     top: 160px;
+    margin-left: -20px;
   }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates\/sass\/partials\/_navigation\.scss}line{font-family:\00003150}}

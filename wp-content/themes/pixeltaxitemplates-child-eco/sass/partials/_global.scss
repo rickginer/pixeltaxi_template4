@@ -69,7 +69,7 @@ a:active {
 
 .entry-content form textarea:focus, .entry-content form input:focus {border-color:$brand-colour;}
 
-
+.social-location-top .logo img {padding-bottom:10px;}
 
 @media screen and (min-width: 480px) {
 
@@ -80,6 +80,11 @@ a:active {
 @media screen and (min-width: 768px) {
 
 	footer { max-width:$maxwidth; }
+
+	
+	.nav-align-left .site-branding {float:left;}
+	.nav-align-center .site-branding .logo {text-align:center}
+	.nav-align-left .site-branding .logo {text-align:left}
 
 
 }

@@ -171,6 +171,10 @@ header nav.social-media {margin-top:15px;}
 		right:20px;
 		margin-top:0;
 		width:auto;
+		li {
+			border-left:2px white solid;
+			float:left;
+		}
 	}
 	.nav-align-left {
 		.main-navigation {
@@ -186,7 +190,7 @@ header nav.social-media {margin-top:15px;}
 			border-bottom:none;
 		}
 		nav.social-media {
-			text-align:left;
+			//text-align:left;
 		}
 		header nav.social-media {
 			float:right;
@@ -194,6 +198,8 @@ header nav.social-media {margin-top:15px;}
 		}
 
 	}
+
+//	footer.nav-align-left.social-white nav.social-media {text-align:center;}
 
 	
 	.nav-align-left .main-navigation .menu {padding-left:20px;}

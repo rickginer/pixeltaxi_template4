@@ -66,7 +66,84 @@ nav.social-media li.social-twitter a {background-position:126px 0px}
 nav.social-media li.social-gplus a {background-position:336px 0px}
 nav.social-media li.social-youtube a {background-position:42px 0px}
 nav.social-media li.social-linkedin a {background-position:294px 0px}
+
+
+nav.social-media, nav.social-media li a {background-color:$brand-colour; }
+nav.social-media li a:hover {background-color:$brand-colour-secondary;}
+nav.social-media li.social-facebook a {background-position:0px 0px}
+nav.social-media li.social-twitter a {background-position:126px 0px}
+nav.social-media li.social-gplus a {background-position:336px 0px}
+nav.social-media li.social-youtube a {background-position:42px 0px}
+nav.social-media li.social-linkedin a {background-position:294px 0px}
+// White background, grey icons
+nav.social-media, nav.social-media li a {background-color:transparent; }
+nav.social-media li.social-facebook a {background-position:0px -42px}
+nav.social-media li.social-twitter a {background-position:126px -42px}
+nav.social-media li.social-gplus a {background-position:336px -42px}
+nav.social-media li.social-youtube a {background-position:42px -42px}
+nav.social-media li.social-linkedin a {background-position:294px -42px}
+nav.social-media li.social-facebook a:hover {background-position:0px 0px}
+nav.social-media li.social-twitter a:hover {background-position:126px 0px}
+nav.social-media li.social-gplus a:hover {background-position:336px 0px}
+nav.social-media li.social-youtube a:hover {background-position:42px 0px}
+nav.social-media li.social-linkedin a:hover {background-position:294px 0px}
+// White background social-media coloured background
+nav.social-media, nav.social-media li a {background-color:transparent; }
+nav.social-media li.social-facebook a {background-position:0px -85px}
+nav.social-media li.social-twitter a {background-position:126px -85px}
+nav.social-media li.social-gplus a {background-position:336px -85px}
+nav.social-media li.social-youtube a {background-position:42px -85px}
+nav.social-media li.social-linkedin a {background-position:294px -85px}
+nav.social-media li.social-facebook a:hover {background-position:0px 0px}
+nav.social-media li.social-twitter a:hover {background-position:126px 0px}
+nav.social-media li.social-gplus a:hover {background-position:336px 0px}
+nav.social-media li.social-youtube a:hover {background-position:42px 0px}
+nav.social-media li.social-linkedin a:hover {background-position:294px 0px}
+
+
+.social-white nav.social-media li a {background-color:$brand-colour; }
+.social-white nav.social-media li a:hover {background-color:$brand-colour-secondary;}
+.social-white nav.social-media li.social-facebook a {background-position:0px 0px}
+.social-white nav.social-media li.social-twitter a {background-position:126px 0px}
+.social-white nav.social-media li.social-gplus a {background-position:336px 0px}
+.social-white nav.social-media li.social-youtube a {background-position:42px 0px}
+.social-white nav.social-media li.social-linkedin a {background-position:294px 0px}
+.social-white nav.social-media li.social-facebook a:hover {background-position:0px 0px}
+.social-white nav.social-media li.social-twitter a:hover {background-position:126px 0px}
+.social-white nav.social-media li.social-gplus a:hover {background-position:336px 0px}
+.social-white nav.social-media li.social-youtube a:hover {background-position:42px 0px}
+.social-white nav.social-media li.social-linkedin a:hover {background-position:294px 0px}
+// White background, grey icons
+.social-grey nav.social-media, .social-grey nav.social-media li a {background-color:transparent; }
+.social-grey nav.social-media li a:hover {background-color:$brand-colour;}
+.social-grey nav.social-media li.social-facebook a {background-position:0px -42px}
+.social-grey nav.social-media li.social-twitter a {background-position:126px -42px}
+.social-grey nav.social-media li.social-gplus a {background-position:336px -42px}
+.social-grey nav.social-media li.social-youtube a {background-position:42px -42px}
+.social-grey nav.social-media li.social-linkedin a {background-position:294px -42px}
+.social-grey nav.social-media li.social-facebook a:hover {background-position:0px 0px}
+.social-grey nav.social-media li.social-twitter a:hover {background-position:126px 0px}
+.social-grey nav.social-media li.social-gplus a:hover {background-position:336px 0px}
+.social-grey nav.social-media li.social-youtube a:hover {background-position:42px 0px}
+.social-grey nav.social-media li.social-linkedin a:hover {background-position:294px 0px}
+// White background social-media coloured background
+.social-default nav.social-media, .social-default nav.social-media li a {background-color:transparent; }
+.social-default nav.social-media li a:hover {background-color:$brand-colour;}
+.social-default nav.social-media li.social-facebook a {background-position:0px -85px}
+.social-default nav.social-media li.social-twitter a {background-position:126px -85px}
+.social-default nav.social-media li.social-gplus a {background-position:336px -85px}
+.social-default nav.social-media li.social-youtube a {background-position:42px -85px}
+.social-default nav.social-media li.social-linkedin a {background-position:294px -85px}
+.social-default nav.social-media li.social-facebook a:hover {background-position:0px 0px}
+.social-default nav.social-media li.social-twitter a:hover {background-position:126px 0px}
+.social-default nav.social-media li.social-gplus a:hover {background-position:336px 0px}
+.social-default nav.social-media li.social-youtube a:hover {background-position:42px 0px}
+.social-default nav.social-media li.social-linkedin a:hover {background-position:294px 0px}
+
+
 nav.social-media h4 {display:none;}
+header nav.social-media {margin-top:15px;}
+
 
 
 @media screen and (min-width: 480px) {
@@ -83,6 +160,54 @@ nav.social-media h4 {display:none;}
 	.menu-sub-menu-container {float:right; clear:both;}
 
 	.main-navigation {position:absolute; top:160px;}
+
+
+	.nav-align-center .main-navigation {
+		text-align:center;
+	}
+
+
+	header nav.social-media {
+		position:absolute;
+		top:20px;
+		right:20px;
+		margin-top:0;
+		width:auto;
+		li {
+			border-left:2px white solid;
+			float:left;
+		}
+	}
+	.nav-align-left {
+		.main-navigation {
+			text-align:left;
+			.menu {
+				padding-left:0;
+				li a {
+					padding-left:0; padding-right:20px;
+				}
+			}
+		}
+		.site-branding {
+			border-bottom:none;
+		}
+		nav.social-media {
+			//text-align:left;
+		}
+		header nav.social-media {
+			float:right;
+			margin-top:210px;
+		}
+
+	}
+
+//	footer.nav-align-left.social-white nav.social-media {text-align:center;}
+
+	
+	.nav-align-left .main-navigation .menu {padding-left:20px;}
+
+
+
 	.main-navigation ul {
 		display: block;
 		text-align:center;;

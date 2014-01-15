@@ -82,6 +82,7 @@ a:active {
 #cntctfrm_contact_form input.text, #cntctfrm_contact_form textarea, #cntctfrm_contact_message, #cntctfrm_contact_name, #cntctfrm_contact_email, #cntctfrm_contact_subject {width:95%;}
 .entry-content form textarea, .entry-content form input {border-color:$grey;}
 
+.social-location-top .logo img {padding-bottom:10px;}
 
 @media screen and (min-width: 480px) {
 
@@ -118,6 +119,11 @@ a:active {
 		margin-top:0;
 		border-left:10px solid #eee;
 	}
+
+	
+	.nav-align-left .site-branding {float:left;}
+	.nav-align-center .site-branding .logo {text-align:center}
+	.nav-align-left .site-branding .logo {text-align:left}
 
 
 }

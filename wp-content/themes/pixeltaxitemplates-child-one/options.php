@@ -153,8 +153,8 @@ function optionsframework_options() {
 
 
 	$social_display_array = array(
-			'white' => __('White on primary', 'options_check'),
-			'grey' => __('Grey on primary', 'options_check'),
+			'white' => __('White icons on primary background', 'options_check'),
+			'grey' => __('Grey icons on white background', 'options_check'),
 			'default' => __('Default Social Media colours', 'options_check')
 		);
 

@@ -69,7 +69,7 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div id="page" class="hfeed site">
+<div id="page" class="hfeed site <?php if(of_get_option("article_colour")) echo "solid-article-colour "; ?>   social-<?php echo of_get_option("social_display"); ?>  social-location-<?php echo of_get_option("social_location"); ?> nav-align-<?php echo of_get_option("nav_alignment"); ?> ">
 	<?php do_action( 'before' ); ?>
 	<header id="masthead" class="site-header" role="banner">
 

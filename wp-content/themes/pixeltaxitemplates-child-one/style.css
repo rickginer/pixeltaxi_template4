@@ -664,46 +664,47 @@ header nav.social-media {
     margin-top: 0;
     width: auto;
   }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates-child-one\/sass\/partials\/_navigation\.scss}line{font-family:\00003174}}
+  header nav.social-media li {
+    border-left: 2px white solid;
+    float: left;
+  }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates-child-one\/sass\/partials\/_navigation\.scss}line{font-family:\00003176}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates-child-one\/sass\/partials\/_navigation\.scss}line{font-family:\00003180}}
   .nav-align-left .main-navigation {
     text-align: left;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates-child-one\/sass\/partials\/_navigation\.scss}line{font-family:\00003178}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates-child-one\/sass\/partials\/_navigation\.scss}line{font-family:\00003182}}
   .nav-align-left .main-navigation .menu {
     padding-left: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates-child-one\/sass\/partials\/_navigation\.scss}line{font-family:\00003180}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates-child-one\/sass\/partials\/_navigation\.scss}line{font-family:\00003184}}
   .nav-align-left .main-navigation .menu li a {
     padding-left: 0;
     padding-right: 20px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates-child-one\/sass\/partials\/_navigation\.scss}line{font-family:\00003185}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates-child-one\/sass\/partials\/_navigation\.scss}line{font-family:\00003189}}
   .nav-align-left .site-branding {
     border-bottom: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates-child-one\/sass\/partials\/_navigation\.scss}line{font-family:\00003188}}
-  .nav-align-left nav.social-media {
-    text-align: left;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates-child-one\/sass\/partials\/_navigation\.scss}line{font-family:\00003191}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates-child-one\/sass\/partials\/_navigation\.scss}line{font-family:\00003195}}
   .nav-align-left header nav.social-media {
     float: right;
     margin-top: 210px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates-child-one\/sass\/partials\/_navigation\.scss}line{font-family:\00003199}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates-child-one\/sass\/partials\/_navigation\.scss}line{font-family:\00003205}}
   .nav-align-left .main-navigation .menu {
     padding-left: 20px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates-child-one\/sass\/partials\/_navigation\.scss}line{font-family:\00003201}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates-child-one\/sass\/partials\/_navigation\.scss}line{font-family:\00003207}}
   .main-navigation ul {
     display: block;
     text-align: center;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates-child-one\/sass\/partials\/_navigation\.scss}line{font-family:\00003205}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates-child-one\/sass\/partials\/_navigation\.scss}line{font-family:\00003211}}
   .main-navigation .menu {
     display: inline-block;
     width: auto;
@@ -712,12 +713,12 @@ header nav.social-media {
     padding: 0 20px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates-child-one\/sass\/partials\/_navigation\.scss}line{font-family:\00003214}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates-child-one\/sass\/partials\/_navigation\.scss}line{font-family:\00003220}}
   .main-navigation li {
     display: inline-block;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates-child-one\/sass\/partials\/_navigation\.scss}line{font-family:\00003217}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates-child-one\/sass\/partials\/_navigation\.scss}line{font-family:\00003223}}
   .main-navigation li a, .main-navigation li a:hover {
     width: auto;
     padding: 0 10px;
@@ -726,32 +727,32 @@ header nav.social-media {
     font-weight: bold;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates-child-one\/sass\/partials\/_navigation\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates-child-one\/sass\/partials\/_navigation\.scss}line{font-family:\00003232}}
   footer nav {
     display: block;
     overflow: hidden;
     clear: both;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates-child-one\/sass\/partials\/_navigation\.scss}line{font-family:\00003227}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates-child-one\/sass\/partials\/_navigation\.scss}line{font-family:\00003233}}
   footer nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates-child-one\/sass\/partials\/_navigation\.scss}line{font-family:\00003229}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates-child-one\/sass\/partials\/_navigation\.scss}line{font-family:\00003235}}
   footer nav.menu-footer-primary-container {
     color: #5f5f61;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates-child-one\/sass\/partials\/_navigation\.scss}line{font-family:\00003230}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates-child-one\/sass\/partials\/_navigation\.scss}line{font-family:\00003236}}
   footer nav.menu-footer-primary-container li {
     width: 25%;
     float: left;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates-child-one\/sass\/partials\/_navigation\.scss}line{font-family:\00003231}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates-child-one\/sass\/partials\/_navigation\.scss}line{font-family:\00003237}}
   footer nav.menu-footer-primary-container li a {
     color: inherit;
     font-size: 18px;
@@ -760,60 +761,60 @@ header nav.social-media {
     padding-bottom: 10px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates-child-one\/sass\/partials\/_navigation\.scss}line{font-family:\00003232}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates-child-one\/sass\/partials\/_navigation\.scss}line{font-family:\00003238}}
   footer nav.menu-footer-primary-container li ul li {
     width: auto;
     float: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates-child-one\/sass\/partials\/_navigation\.scss}line{font-family:\00003233}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates-child-one\/sass\/partials\/_navigation\.scss}line{font-family:\00003239}}
   footer nav.menu-footer-primary-container li ul li a {
     font-size: 12px;
     padding-bottom: 2px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates-child-one\/sass\/partials\/_navigation\.scss}line{font-family:\00003235}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates-child-one\/sass\/partials\/_navigation\.scss}line{font-family:\00003241}}
   footer nav.menu-footer-primary-container li.membership-menu {
     background-color: #81c178;
     color: white;
     padding: 0 0 10px 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates-child-one\/sass\/partials\/_navigation\.scss}line{font-family:\00003236}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates-child-one\/sass\/partials\/_navigation\.scss}line{font-family:\00003242}}
   footer nav.menu-footer-primary-container li.membership-menu a {
     padding: 10px 0 0 10px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates-child-one\/sass\/partials\/_navigation\.scss}line{font-family:\00003238}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates-child-one\/sass\/partials\/_navigation\.scss}line{font-family:\00003244}}
   footer nav.menu-footer-secondary-container {
     text-align: right;
     padding: 10px 0 20px 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates-child-one\/sass\/partials\/_navigation\.scss}line{font-family:\00003239}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates-child-one\/sass\/partials\/_navigation\.scss}line{font-family:\00003245}}
   footer nav.menu-footer-secondary-container li {
     display: inline-block;
     font-size: 12px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates-child-one\/sass\/partials\/_navigation\.scss}line{font-family:\00003242}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates-child-one\/sass\/partials\/_navigation\.scss}line{font-family:\00003248}}
   .delimiter {
     float: right;
     padding-left: 5px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates-child-one\/sass\/partials\/_navigation\.scss}line{font-family:\00003243}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates-child-one\/sass\/partials\/_navigation\.scss}line{font-family:\00003249}}
   .sub-menu .delimiter {
     display: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates-child-one\/sass\/partials\/_navigation\.scss}line{font-family:\00003244}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates-child-one\/sass\/partials\/_navigation\.scss}line{font-family:\00003250}}
   .menu-footer-secondary-container li:last-child .delimiter {
     display: none;
   }
 }
 @media screen and (min-width: 1024px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates-child-one\/sass\/partials\/_navigation\.scss}line{font-family:\00003252}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rick\/sites\/pixeltaxi\/dev\/templates\/wp-content\/themes\/pixeltaxitemplates-child-one\/sass\/partials\/_navigation\.scss}line{font-family:\00003258}}
   .menu-sub-menu-container {
     float: right;
     clear: none;

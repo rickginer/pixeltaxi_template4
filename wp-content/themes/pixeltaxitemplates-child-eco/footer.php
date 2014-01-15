@@ -13,7 +13,8 @@
 </div><!-- #page -->
 
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
+	
+	<footer id="colophon" class="site-footer  social-<?php echo of_get_option("social_display"); ?>  nav-align-<?php echo of_get_option("nav_alignment"); ?>" role="contentinfo">
 
 		<?php wp_nav_menu( array( 'theme_location' => 'primary-footer', 'container' => 'nav', 'fallback_cb' =>'' ) ); ?>
 

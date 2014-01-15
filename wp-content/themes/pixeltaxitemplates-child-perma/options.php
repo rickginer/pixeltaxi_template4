@@ -35,15 +35,32 @@ function optionsframework_options() {
 
 	$options[] = array(
 		'name' => __('Logo image', 'logo_image'),
-		'desc' => __('Suggested image sizes: 300px x 100px or 300px x 300px', 'options_check'),
+		'desc' => __('Suggested image sizes: 300px x 100px or 300px x 300px or 450px x 400px', 'options_check'),
 		'id' => 'logo_image',
 		'type' => 'upload');
+
+
+
+	$nav_alignment_array = array(
+			'left' => __('Left', 'options_check'),
+			'center' => __('Center', 'options_check')
+		);
+
+	$options[] = array(
+			'name' => __('Header alignment', 'options_check'),
+			'desc' => __('Choose how to display the header logo and menus', 'options_check'),
+			'id' => 'nav_alignment',
+			'std' => 'center',
+			'type' => 'select',
+			'class' => 'mini', //mini, tiny, small
+			'options' => $nav_alignment_array);
+
 
 	$options[] = array(
 		'name' => __('Primary colour', 'options_check'),
 		'desc' => __('', 'options_check'),
 		'id' => 'primary_color',
-		'std' => '#81C178',
+		'std' => '#f84e57',
 		'type' => 'color' );
 
 	$options[] = array(
@@ -53,13 +70,13 @@ function optionsframework_options() {
 		'std' => '#000000',
 		'type' => 'color' );
 
-	$options[] = array(
-		'name' => __('Background colour', 'options_check'),
-		'desc' => __('', 'options_check'),
-		'id' => 'background_color',
-		'std' => '#eee',
-		'type' => 'color' );
 
+	$options[] = array(
+		'name' => __('Article background colour', 'options_check'),
+		'desc' => __('Select a colour if you want a solid colour for the background of your articles', 'options_check'),
+		'id' => 'article_colour',
+		'std' => '',
+		'type' => 'color' );
 
 
 	$options[] = array(
@@ -122,7 +139,7 @@ function optionsframework_options() {
 		'name' => __('LinkedIn URL', 'options_check'),
 		'desc' => __('Enter your LinkedIn page URL', 'options_check'),
 		'id' => 'social_linkedin',
-		'std' => 'http://www.linkedin.com/',
+		'std' => 'http://www.linkedin.com/',		
 		'class' => 'wide',
 		'type' => 'text');
 
@@ -134,6 +151,35 @@ function optionsframework_options() {
 		'class' => 'wide',
 		'type' => 'text');
 
+
+	$social_display_array = array(
+			'white' => __('White icons on primary background', 'options_check'),
+			'grey' => __('Grey icons on white background', 'options_check'),
+			'default' => __('Default Social Media colours', 'options_check')
+		);
+
+	$options[] = array(
+			'name' => __('Social Media style', 'options_check'),
+			'desc' => __('Choose how your social media icons will look', 'options_check'),
+			'id' => 'social_display',
+			'std' => 'grey',
+			'type' => 'select',
+			'options' => $social_display_array);
+
+
+	$social_location_array = array(
+			'top' => __('Top of the page', 'options_check'),
+			'bottom' => __('Bottom of the page', 'options_check'),
+			'default' => __('Default', 'options_check')
+		);
+
+	$options[] = array(
+			'name' => __('Social Media location', 'options_check'),
+			'desc' => __('Choose where to display social media icons', 'options_check'),
+			'id' => 'social_location',
+			'std' => 'default',
+			'type' => 'select',
+			'options' => $social_location_array);
 
 
 /*

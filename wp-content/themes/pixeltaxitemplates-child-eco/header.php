@@ -41,7 +41,9 @@
 		button:active,
 		input[type="button"]:active,
 		input[type="reset"]:active,
-		input[type="submit"]:active
+		input[type="submit"]:active,
+		.social-grey nav.social-media li a:hover,
+		.social-default nav.social-media li a:hover 
 			{ background-color:<?php echo of_get_option("primary_color") ?>; }
 	<?php } ?>
 	<?php if(of_get_option("secondary_color")){ ?>
@@ -63,7 +65,7 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div id="page" class="hfeed site">
+<div id="page" class="hfeed site <?php if(of_get_option("article_colour")) echo "solid-article-colour "; ?>   social-<?php echo of_get_option("social_display"); ?>  social-location-<?php echo of_get_option("social_location"); ?> nav-align-<?php echo of_get_option("nav_alignment"); ?> ">
 	<?php do_action( 'before' ); ?>
 	<header id="masthead" class="site-header" role="banner">
 
